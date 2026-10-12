@@ -1,10 +1,17 @@
 name: build-frida-ios-stealth
 
+# Triggers:
+#   - workflow_dispatch: manual build (input frida_version, blank = latest stable)
+#   - push: rebuild when build scripts / packaging change
+#   - schedule: DAILY check of the upstream frida/frida release; if a newer frida
+#     version exists than the last one we published here, auto-build it with the
+#     stealth + roothide patches and publish a GitHub Release. Already-up-to-date
+#     runs skip the build (saves CI minutes).
 on:
   workflow_dispatch:
     inputs:
       frida_version:
-        description: "Frida version tag to build (blank = latest stable release)"
+        description: "Frida version tag to build (blank = latest stable release from frida/frida)"
         required: false
         default: ""
   push:
@@ -13,6 +20,9 @@ on:
       - ".github/workflows/build.yml"
       - "scripts/**"
       - "tools/**"
+      - "patches-ios/**"
+  schedule:
+    - cron: "17 3 * * *"
 
 permissions:
   contents: write
@@ -29,7 +39,40 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      # Decide WHAT to build (and whether to build at all):
+      #   - dispatch with a version  -> build that version
+      #   - schedule                 -> latest frida/frida release; skip if already published
+      #   - push                     -> latest frida/frida release (rebuild)
+      - name: Resolve frida version
+        id: resolve
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -uo pipefail
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ -n "${{ github.event.inputs.frida_version }}" ]; then
+            echo "ver=${{ github.event.inputs.frida_version }}" >> "$GITHUB_OUTPUT"
+            echo "build=yes" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          # Latest stable upstream release of frida/frida (the real upstream of this build).
+          LATEST="$(curl -fsSL https://api.github.com/repos/frida/frida/releases/latest \
+            | python3 -c 'import sys,json;print(json.load(sys.stdin)["tag_name"])')"
+          echo "upstream frida/frida latest tag: $LATEST"
+          # Last version published in THIS repo (strip leading v for comparison).
+          CURRENT="$(gh release list --repo "$GITHUB_REPOSITORY" --limit 1 --json tagName \
+            --jq '.[0].tagName' 2>/dev/null | sed 's/^v//')" || CURRENT=""
+          echo "current repo release: ${CURRENT:-none}"
+          if [ "${{ github.event_name }}" = "schedule" ] && [ -n "$CURRENT" ] \
+             && [ "$(echo "$LATEST" | sed 's/^v//')" = "$CURRENT" ]; then
+            echo "::notice::upstream ($LATEST) already built here; nothing to do"
+            echo "build=no" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "ver=${LATEST}" >> "$GITHUB_OUTPUT"
+          echo "build=yes" >> "$GITHUB_OUTPUT"
+
       - name: Select Xcode
+        if: steps.resolve.outputs.build == 'yes'
         run: |
           echo "Available Xcodes:"; ls /Applications | grep -i xcode || true
           for x in Xcode_15.4 Xcode_15.3 Xcode_15.2 Xcode_15.1 Xcode_15.0.1 Xcode; do
@@ -39,6 +82,7 @@ jobs:
           xcrun --sdk iphoneos --show-sdk-path || true
 
       - name: Install build deps
+        if: steps.resolve.outputs.build == 'yes'
         run: |
           brew install make dpkg ldid coreutils || true
           echo "node: $(node --version 2>/dev/null)"
@@ -48,12 +92,13 @@ jobs:
 
       - name: Build frida-server (iOS rootless arm64e)
         id: build
+        if: steps.resolve.outputs.build == 'yes'
         run: |
           set -o pipefail
-          bash scripts/build-ios.sh "${{ github.event.inputs.frida_version }}" 2>&1 | tee build.log
+          bash scripts/build-ios.sh "${{ steps.resolve.outputs.ver }}" 2>&1 | tee build.log
 
       - name: Read frida version
-        if: always()
+        if: always() && steps.resolve.outputs.build == 'yes'
         id: meta
         run: |
           if [ -f out/FRIDA_VERSION.txt ]; then
@@ -61,7 +106,7 @@ jobs:
           fi
 
       - name: Upload artifacts
-        if: always()
+        if: always() && steps.resolve.outputs.build == 'yes'
         uses: actions/upload-artifact@v4
         with:
           name: frida-ios-stealth
@@ -72,7 +117,7 @@ jobs:
           if-no-files-found: warn
 
       - name: Publish GitHub Release
-        if: success()
+        if: steps.resolve.outputs.build == 'yes' && success()
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
