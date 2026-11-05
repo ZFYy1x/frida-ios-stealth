@@ -1,0 +1,1107 @@
+-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__memory/align.h:13:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__cstddef/size_t.h:22:1: error: '#pragma clang attribute pop' with no matching '#pragma clang attribute push'
+_LIBCPP_END_NAMESPACE_STD
+^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:75:39: note: expanded from macro '_LIBCPP_END_NAMESPACE_STD'
+#  define _LIBCPP_END_NAMESPACE_STD } _LIBCPP_END_UNVERSIONED_NAMESPACE_STD
+                                      ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:72:51: note: expanded from macro '_LIBCPP_END_UNVERSIONED_NAMESPACE_STD'
+#  define _LIBCPP_END_UNVERSIONED_NAMESPACE_STD } _LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS _LIBCPP_POP_EXTENSION_DIAGNOSTICS
+                                                  ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:57:48: note: expanded from macro '_LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS'
+#define _LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS _Pragma("clang attribute _LibcxxExplicitABIAnnotations.pop")
+                                               ^
+<scratch space>:4:8: note: expanded from here
+ clang attribute _LibcxxExplicitABIAnnotations.pop
+       ^
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8scope.cpp:9:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8scope.h:13:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/v8-15.7/v8.h:21:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/memory:945:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__memory/align.h:14:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/cstdint:156:1: error: attribute '__visibility__' is not supported by '#pragma clang attribute'
+_LIBCPP_BEGIN_NAMESPACE_STD
+^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:74:39: note: expanded from macro '_LIBCPP_BEGIN_NAMESPACE_STD'
+#  define _LIBCPP_BEGIN_NAMESPACE_STD _LIBCPP_BEGIN_UNVERSIONED_NAMESPACE_STD inline namespace _LIBCPP_ABI_NAMESPACE {
+                                      ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:70:40: note: expanded from macro '_LIBCPP_BEGIN_UNVERSIONED_NAMESPACE_STD'
+    _LIBCPP_PUSH_EXTENSION_DIAGNOSTICS _LIBCPP_END_EXPLICIT_ABI_ANNOTATIONS namespace _LIBCPP_NAMESPACE_VISIBILITY std {
+                                       ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:51:3: note: expanded from macro '_LIBCPP_END_EXPLICIT_ABI_ANNOTATIONS'
+  _Pragma(_LIBCPP_TOSTRING(clang attribute _LibcxxExplicitABIAnnotations.push(                                         \
+  ^
+<scratch space>:12:8: note: expanded from here
+ clang attribute _LibcxxExplicitABIAnnotations.push( __attribute__((__exclude_from_explicit_instantiation__, __visibility__("hidden"), __abi_tag__("nqn230000"))), apply_to = function)
+       ^
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8scope.cpp:9:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8scope.h:13:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/v8-15.7/v8.h:21:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/memory:945:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__memory/align.h:14:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/cstdint:194:1: error: '#pragma clang attribute pop' with no matching '#pragma clang attribute push'
+_LIBCPP_END_NAMESPACE_STD
+^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:75:39: note: expanded from macro '_LIBCPP_END_NAMESPACE_STD'
+#  define _LIBCPP_END_NAMESPACE_STD } _LIBCPP_END_UNVERSIONED_NAMESPACE_STD
+                                      ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:72:51: note: expanded from macro '_LIBCPP_END_UNVERSIONED_NAMESPACE_STD'
+#  define _LIBCPP_END_UNVERSIONED_NAMESPACE_STD } _LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS _LIBCPP_POP_EXTENSION_DIAGNOSTICS
+                                                  ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:57:48: note: expanded from macro '_LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS'
+#define _LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS _Pragma("clang attribute _LibcxxExplicitABIAnnotations.pop")
+                                               ^
+<scratch space>:14:8: note: expanded from here
+ clang attribute _LibcxxExplicitABIAnnotations.pop
+       ^
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8scope.cpp:9:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8scope.h:13:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/v8-15.7/v8.h:21:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/memory:945:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__memory/align.h:20:1: error: attribute '__visibility__' is not supported by '#pragma clang attribute'
+_LIBCPP_BEGIN_NAMESPACE_STD
+^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:74:39: note: expanded from macro '_LIBCPP_BEGIN_NAMESPACE_STD'
+#  define _LIBCPP_BEGIN_NAMESPACE_STD _LIBCPP_BEGIN_UNVERSIONED_NAMESPACE_STD inline namespace _LIBCPP_ABI_NAMESPACE {
+                                      ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:70:40: note: expanded from macro '_LIBCPP_BEGIN_UNVERSIONED_NAMESPACE_STD'
+    _LIBCPP_PUSH_EXTENSION_DIAGNOSTICS _LIBCPP_END_EXPLICIT_ABI_ANNOTATIONS namespace _LIBCPP_NAMESPACE_VISIBILITY std {
+                                       ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:51:3: note: expanded from macro '_LIBCPP_END_EXPLICIT_ABI_ANNOTATIONS'
+  _Pragma(_LIBCPP_TOSTRING(clang attribute _LibcxxExplicitABIAnnotations.push(                                         \
+  ^
+<scratch space>:21:8: note: expanded from here
+ clang attribute _LibcxxExplicitABIAnnotations.push( __attribute__((__exclude_from_explicit_instantiation__, __visibility__("hidden"), __abi_tag__("nqn230000"))), apply_to = function)
+       ^
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8scope.cpp:9:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8scope.h:13:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/v8-15.7/v8.h:21:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/memory:945:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__memory/align.h:40:1: error: '#pragma clang attribute pop' with no matching '#pragma clang attribute push'
+_LIBCPP_END_NAMESPACE_STD
+^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:75:39: note: expanded from macro '_LIBCPP_END_NAMESPACE_STD'
+#  define _LIBCPP_END_NAMESPACE_STD } _LIBCPP_END_UNVERSIONED_NAMESPACE_STD
+                                      ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:72:51: note: expanded from macro '_LIBCPP_END_UNVERSIONED_NAMESPACE_STD'
+#  define _LIBCPP_END_UNVERSIONED_NAMESPACE_STD } _LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS _LIBCPP_POP_EXTENSION_DIAGNOSTICS
+                                                  ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:57:48: note: expanded from macro '_LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS'
+#define _LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS _Pragma("clang attribute _LibcxxExplicitABIAnnotations.pop")
+                                               ^
+<scratch space>:27:8: note: expanded from here
+ clang attribute _LibcxxExplicitABIAnnotations.pop
+       ^
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8scope.cpp:9:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8scope.h:13:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/v8-15.7/v8.h:21:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/memory:946:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__memory/allocator.h:14:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__cstddef/ptrdiff_t.h:18:1: error: attribute '__visibility__' is not supported by '#pragma clang attribute'
+_LIBCPP_BEGIN_NAMESPACE_STD
+^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:74:39: note: expanded from macro '_LIBCPP_BEGIN_NAMESPACE_STD'
+#  define _LIBCPP_BEGIN_NAMESPACE_STD _LIBCPP_BEGIN_UNVERSIONED_NAMESPACE_STD inline namespace _LIBCPP_ABI_NAMESPACE {
+                                      ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:70:40: note: expanded from macro '_LIBCPP_BEGIN_UNVERSIONED_NAMESPACE_STD'
+    _LIBCPP_PUSH_EXTENSION_DIAGNOSTICS _LIBCPP_END_EXPLICIT_ABI_ANNOTATIONS namespace _LIBCPP_NAMESPACE_VISIBILITY std {
+                                       ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:51:3: note: expanded from macro '_LIBCPP_END_EXPLICIT_ABI_ANNOTATIONS'
+  _Pragma(_LIBCPP_TOSTRING(clang attribute _LibcxxExplicitABIAnnotations.push(                                         \
+  ^
+<scratch space>:34:8: note: expanded from here
+ clang attribute _LibcxxExplicitABIAnnotations.push( __attribute__((__exclude_from_explicit_instantiation__, __visibility__("hidden"), __abi_tag__("nqn230000"))), apply_to = function)
+       ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+1 warning and 20 errors generated.
+[3/184] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8script.cpp.o
+FAILED: [code=1] subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8script.cpp.o 
+/Applications/Xcode_15.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target arm64e-apple-ios8.0 -isysroot /Applications/Xcode_15.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.sdk -Isubprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p -Isubprojects/frida-gum/bindings/gumjs -I../subprojects/frida-gum/bindings/gumjs -Isubprojects/frida-gum/bindings -I../subprojects/frida-gum/bindings -Isubprojects/frida-gum -I../subprojects/frida-gum -Isubprojects/frida-gum/gum -I../subprojects/frida-gum/gum -I../subprojects/frida-gum/gum/arch-x86 -I../subprojects/frida-gum/gum/arch-arm -I../subprojects/frida-gum/gum/arch-arm64 -I../subprojects/frida-gum/gum/arch-mips -Isubprojects/frida-gum/libs -I../subprojects/frida-gum/libs -Isubprojects/frida-gum/libs/gum/heap -I../subprojects/frida-gum/libs/gum/heap -Isubprojects/frida-gum/libs/gum/prof -I../subprojects/frida-gum/libs/gum/prof -I../subprojects/frida-gum/gum/backend-darwin/include -I/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0 -I/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/lib/glib-2.0/include -I/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include -I/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/capstone -I/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/quickjs -I/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/v8-15.7 -I/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/gio-unix-2.0 -I/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/json-glib-1.0 -fdiagnostics-color=always -DNDEBUG -Wall -Winvalid-pch -fno-exceptions -fno-rtti -std=c++20 -Oz -g -include /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/build/subprojects/frida-gum/config.h '-DG_LOG_DOMAIN="Frida"' -DGLIB_VERSION_MIN_REQUIRED=GLIB_VERSION_2_56 -DG_DISABLE_DEPRECATED -nostdinc++ -isystem/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++ -DJSON_STATIC_BUILD -DJSON_ENABLE_DEBUG -DLIBC_NAMESPACE=__llvm_libc_cr -DHWY_BROKEN_TARGETS=HWY_ALL_SVE -DV8_GN_HEADER -DFFI_STATIC_BUILD -DPCRE2_STATIC -DGUM_STATIC -MD -MQ subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8script.cpp.o -MF subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8script.cpp.o.d -o subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8script.cpp.o -c ../subprojects/frida-gum/bindings/gumjs/gumv8script.cpp
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8script.cpp:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8script.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumscript.h:11:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gio/gio.h:28:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gio/giotypes.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gio/gioenums.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib-object.h:24:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gobject/gbinding.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib.h:32:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/galloca.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gtypes.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/lib/glib-2.0/include/glibconfig.h:9:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gmacros.h:40:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/stddef.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__config:21:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/abi.h:14:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/compiler.h:41:8: warning: "Libc++ only supports AppleClang 26.4 and later" [-W#warnings]
+#      warning "Libc++ only supports AppleClang 26.4 and later"
+       ^
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8script.cpp:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8script.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumscript.h:11:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gio/gio.h:28:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gio/giotypes.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gio/gioenums.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib-object.h:24:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gobject/gbinding.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gasyncqueue.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gthread.h:36:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gutils.h:469:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/stdlib.h:109:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__math/abs.h:13:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__type_traits/enable_if.h:18:1: error: attribute '__visibility__' is not supported by '#pragma clang attribute'
+_LIBCPP_BEGIN_NAMESPACE_STD
+^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:74:39: note: expanded from macro '_LIBCPP_BEGIN_NAMESPACE_STD'
+#  define _LIBCPP_BEGIN_NAMESPACE_STD _LIBCPP_BEGIN_UNVERSIONED_NAMESPACE_STD inline namespace _LIBCPP_ABI_NAMESPACE {
+                                      ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:70:40: note: expanded from macro '_LIBCPP_BEGIN_UNVERSIONED_NAMESPACE_STD'
+    _LIBCPP_PUSH_EXTENSION_DIAGNOSTICS _LIBCPP_END_EXPLICIT_ABI_ANNOTATIONS namespace _LIBCPP_NAMESPACE_VISIBILITY std {
+                                       ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:51:3: note: expanded from macro '_LIBCPP_END_EXPLICIT_ABI_ANNOTATIONS'
+  _Pragma(_LIBCPP_TOSTRING(clang attribute _LibcxxExplicitABIAnnotations.push(                                         \
+  ^
+<scratch space>:94:8: note: expanded from here
+ clang attribute _LibcxxExplicitABIAnnotations.push( __attribute__((__exclude_from_explicit_instantiation__, __visibility__("hidden"), __abi_tag__("nqn230000"))), apply_to = function)
+       ^
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8script.cpp:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8script.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumscript.h:11:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gio/gio.h:28:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gio/giotypes.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gio/gioenums.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib-object.h:24:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gobject/gbinding.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gasyncqueue.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gthread.h:36:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gutils.h:469:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/stdlib.h:109:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__math/abs.h:13:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__type_traits/enable_if.h:41:1: error: '#pragma clang attribute pop' with no matching '#pragma clang attribute push'
+_LIBCPP_END_NAMESPACE_STD
+^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:75:39: note: expanded from macro '_LIBCPP_END_NAMESPACE_STD'
+#  define _LIBCPP_END_NAMESPACE_STD } _LIBCPP_END_UNVERSIONED_NAMESPACE_STD
+                                      ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:72:51: note: expanded from macro '_LIBCPP_END_UNVERSIONED_NAMESPACE_STD'
+#  define _LIBCPP_END_UNVERSIONED_NAMESPACE_STD } _LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS _LIBCPP_POP_EXTENSION_DIAGNOSTICS
+                                                  ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:57:48: note: expanded from macro '_LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS'
+#define _LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS _Pragma("clang attribute _LibcxxExplicitABIAnnotations.pop")
+                                               ^
+<scratch space>:101:8: note: expanded from here
+ clang attribute _LibcxxExplicitABIAnnotations.pop
+       ^
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8script.cpp:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8script.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumscript.h:11:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gio/gio.h:28:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gio/giotypes.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gio/gioenums.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib-object.h:24:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gobject/gbinding.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gasyncqueue.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gthread.h:36:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gutils.h:469:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/stdlib.h:109:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__math/abs.h:14:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__type_traits/is_integral.h:13:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__type_traits/integral_constant.h:18:1: error: attribute '__visibility__' is not supported by '#pragma clang attribute'
+_LIBCPP_BEGIN_NAMESPACE_STD
+^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:74:39: note: expanded from macro '_LIBCPP_BEGIN_NAMESPACE_STD'
+#  define _LIBCPP_BEGIN_NAMESPACE_STD _LIBCPP_BEGIN_UNVERSIONED_NAMESPACE_STD inline namespace _LIBCPP_ABI_NAMESPACE {
+                                      ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:70:40: note: expanded from macro '_LIBCPP_BEGIN_UNVERSIONED_NAMESPACE_STD'
+    _LIBCPP_PUSH_EXTENSION_DIAGNOSTICS _LIBCPP_END_EXPLICIT_ABI_ANNOTATIONS namespace _LIBCPP_NAMESPACE_VISIBILITY std {
+                                       ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:51:3: note: expanded from macro '_LIBCPP_END_EXPLICIT_ABI_ANNOTATIONS'
+  _Pragma(_LIBCPP_TOSTRING(clang attribute _LibcxxExplicitABIAnnotations.push(                                         \
+  ^
+<scratch space>:108:8: note: expanded from here
+ clang attribute _LibcxxExplicitABIAnnotations.push( __attribute__((__exclude_from_explicit_instantiation__, __visibility__("hidden"), __abi_tag__("nqn230000"))), apply_to = function)
+       ^
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8script.cpp:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8script.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumscript.h:11:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gio/gio.h:28:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gio/giotypes.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gio/gioenums.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib-object.h:24:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gobject/gbinding.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gasyncqueue.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gthread.h:36:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gutils.h:469:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/stdlib.h:109:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__math/abs.h:14:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__type_traits/is_integral.h:13:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__type_traits/integral_constant.h:42:1: error: '#pragma clang attribute pop' with no matching '#pragma clang attribute push'
+_LIBCPP_END_NAMESPACE_STD
+^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:75:39: note: expanded from macro '_LIBCPP_END_NAMESPACE_STD'
+#  define _LIBCPP_END_NAMESPACE_STD } _LIBCPP_END_UNVERSIONED_NAMESPACE_STD
+                                      ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:72:51: note: expanded from macro '_LIBCPP_END_UNVERSIONED_NAMESPACE_STD'
+#  define _LIBCPP_END_UNVERSIONED_NAMESPACE_STD } _LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS _LIBCPP_POP_EXTENSION_DIAGNOSTICS
+                                                  ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:57:48: note: expanded from macro '_LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS'
+#define _LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS _Pragma("clang attribute _LibcxxExplicitABIAnnotations.pop")
+                                               ^
+<scratch space>:118:8: note: expanded from here
+ clang attribute _LibcxxExplicitABIAnnotations.pop
+       ^
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8script.cpp:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8script.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumscript.h:11:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gio/gio.h:28:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gio/giotypes.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gio/gioenums.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib-object.h:24:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gobject/gbinding.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gasyncqueue.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gthread.h:36:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gutils.h:469:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/stdlib.h:109:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__math/abs.h:14:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__type_traits/is_integral.h:14:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__type_traits/remove_cv.h:18:1: error: attribute '__visibility__' is not supported by '#pragma clang attribute'
+_LIBCPP_BEGIN_NAMESPACE_STD
+^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:74:39: note: expanded from macro '_LIBCPP_BEGIN_NAMESPACE_STD'
+#  define _LIBCPP_BEGIN_NAMESPACE_STD _LIBCPP_BEGIN_UNVERSIONED_NAMESPACE_STD inline namespace _LIBCPP_ABI_NAMESPACE {
+                                      ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:70:40: note: expanded from macro '_LIBCPP_BEGIN_UNVERSIONED_NAMESPACE_STD'
+    _LIBCPP_PUSH_EXTENSION_DIAGNOSTICS _LIBCPP_END_EXPLICIT_ABI_ANNOTATIONS namespace _LIBCPP_NAMESPACE_VISIBILITY std {
+                                       ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:51:3: note: expanded from macro '_LIBCPP_END_EXPLICIT_ABI_ANNOTATIONS'
+  _Pragma(_LIBCPP_TOSTRING(clang attribute _LibcxxExplicitABIAnnotations.push(                                         \
+  ^
+<scratch space>:2:8: note: expanded from here
+ clang attribute _LibcxxExplicitABIAnnotations.push( __attribute__((__exclude_from_explicit_instantiation__, __visibility__("hidden"), __abi_tag__("nqn230000"))), apply_to = function)
+       ^
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8script.cpp:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8script.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumscript.h:11:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gio/gio.h:28:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gio/giotypes.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gio/gioenums.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib-object.h:24:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gobject/gbinding.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gasyncqueue.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gthread.h:36:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gutils.h:469:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/stdlib.h:109:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__math/abs.h:14:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__type_traits/is_integral.h:14:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__type_traits/remove_cv.h:38:1: error: '#pragma clang attribute pop' with no matching '#pragma clang attribute push'
+_LIBCPP_END_NAMESPACE_STD
+^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:75:39: note: expanded from macro '_LIBCPP_END_NAMESPACE_STD'
+#  define _LIBCPP_END_NAMESPACE_STD } _LIBCPP_END_UNVERSIONED_NAMESPACE_STD
+                                      ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:72:51: note: expanded from macro '_LIBCPP_END_UNVERSIONED_NAMESPACE_STD'
+#  define _LIBCPP_END_UNVERSIONED_NAMESPACE_STD } _LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS _LIBCPP_POP_EXTENSION_DIAGNOSTICS
+                                                  ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:57:48: note: expanded from macro '_LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS'
+#define _LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS _Pragma("clang attribute _LibcxxExplicitABIAnnotations.pop")
+                                               ^
+<scratch space>:4:8: note: expanded from here
+ clang attribute _LibcxxExplicitABIAnnotations.pop
+       ^
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8script.cpp:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8script.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumscript.h:11:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gio/gio.h:28:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gio/giotypes.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gio/gioenums.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib-object.h:24:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gobject/gbinding.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gasyncqueue.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gthread.h:36:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gutils.h:469:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/stdlib.h:109:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__math/abs.h:14:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__type_traits/is_integral.h:20:1: error: attribute '__visibility__' is not supported by '#pragma clang attribute'
+_LIBCPP_BEGIN_NAMESPACE_STD
+^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:74:39: note: expanded from macro '_LIBCPP_BEGIN_NAMESPACE_STD'
+#  define _LIBCPP_BEGIN_NAMESPACE_STD _LIBCPP_BEGIN_UNVERSIONED_NAMESPACE_STD inline namespace _LIBCPP_ABI_NAMESPACE {
+                                      ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:70:40: note: expanded from macro '_LIBCPP_BEGIN_UNVERSIONED_NAMESPACE_STD'
+    _LIBCPP_PUSH_EXTENSION_DIAGNOSTICS _LIBCPP_END_EXPLICIT_ABI_ANNOTATIONS namespace _LIBCPP_NAMESPACE_VISIBILITY std {
+                                       ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:51:3: note: expanded from macro '_LIBCPP_END_EXPLICIT_ABI_ANNOTATIONS'
+  _Pragma(_LIBCPP_TOSTRING(clang attribute _LibcxxExplicitABIAnnotations.push(                                         \
+  ^
+<scratch space>:11:8: note: expanded from here
+ clang attribute _LibcxxExplicitABIAnnotations.push( __attribute__((__exclude_from_explicit_instantiation__, __visibility__("hidden"), __abi_tag__("nqn230000"))), apply_to = function)
+       ^
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8script.cpp:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8script.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumscript.h:11:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gio/gio.h:28:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gio/giotypes.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gio/gioenums.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib-object.h:24:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gobject/gbinding.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gasyncqueue.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gthread.h:36:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gutils.h:469:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/stdlib.h:109:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__math/abs.h:14:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__type_traits/is_integral.h:72:1: error: '#pragma clang attribute pop' with no matching '#pragma clang attribute push'
+_LIBCPP_END_NAMESPACE_STD
+^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:75:39: note: expanded from macro '_LIBCPP_END_NAMESPACE_STD'
+#  define _LIBCPP_END_NAMESPACE_STD } _LIBCPP_END_UNVERSIONED_NAMESPACE_STD
+                                      ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:72:51: note: expanded from macro '_LIBCPP_END_UNVERSIONED_NAMESPACE_STD'
+#  define _LIBCPP_END_UNVERSIONED_NAMESPACE_STD } _LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS _LIBCPP_POP_EXTENSION_DIAGNOSTICS
+                                                  ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:57:48: note: expanded from macro '_LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS'
+#define _LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS _Pragma("clang attribute _LibcxxExplicitABIAnnotations.pop")
+                                               ^
+<scratch space>:14:8: note: expanded from here
+ clang attribute _LibcxxExplicitABIAnnotations.pop
+       ^
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8script.cpp:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8script.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumscript.h:11:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gio/gio.h:28:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gio/giotypes.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gio/gioenums.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib-object.h:24:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gobject/gbinding.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gasyncqueue.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gthread.h:36:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gutils.h:469:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/stdlib.h:109:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__math/abs.h:20:1: error: attribute '__visibility__' is not supported by '#pragma clang attribute'
+_LIBCPP_BEGIN_NAMESPACE_STD
+^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:74:39: note: expanded from macro '_LIBCPP_BEGIN_NAMESPACE_STD'
+#  define _LIBCPP_BEGIN_NAMESPACE_STD _LIBCPP_BEGIN_UNVERSIONED_NAMESPACE_STD inline namespace _LIBCPP_ABI_NAMESPACE {
+                                      ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:70:40: note: expanded from macro '_LIBCPP_BEGIN_UNVERSIONED_NAMESPACE_STD'
+    _LIBCPP_PUSH_EXTENSION_DIAGNOSTICS _LIBCPP_END_EXPLICIT_ABI_ANNOTATIONS namespace _LIBCPP_NAMESPACE_VISIBILITY std {
+                                       ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:51:3: note: expanded from macro '_LIBCPP_END_EXPLICIT_ABI_ANNOTATIONS'
+  _Pragma(_LIBCPP_TOSTRING(clang attribute _LibcxxExplicitABIAnnotations.push(                                         \
+  ^
+<scratch space>:21:8: note: expanded from here
+ clang attribute _LibcxxExplicitABIAnnotations.push( __attribute__((__exclude_from_explicit_instantiation__, __visibility__("hidden"), __abi_tag__("nqn230000"))), apply_to = function)
+       ^
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8script.cpp:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8script.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumscript.h:11:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gio/gio.h:28:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gio/giotypes.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gio/gioenums.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib-object.h:24:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gobject/gbinding.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gasyncqueue.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gthread.h:36:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gutils.h:469:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/stdlib.h:109:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__math/abs.h:81:1: error: '#pragma clang attribute pop' with no matching '#pragma clang attribute push'
+_LIBCPP_END_NAMESPACE_STD
+^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:75:39: note: expanded from macro '_LIBCPP_END_NAMESPACE_STD'
+#  define _LIBCPP_END_NAMESPACE_STD } _LIBCPP_END_UNVERSIONED_NAMESPACE_STD
+                                      ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:72:51: note: expanded from macro '_LIBCPP_END_UNVERSIONED_NAMESPACE_STD'
+#  define _LIBCPP_END_UNVERSIONED_NAMESPACE_STD } _LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS _LIBCPP_POP_EXTENSION_DIAGNOSTICS
+                                                  ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:57:48: note: expanded from macro '_LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS'
+#define _LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS _Pragma("clang attribute _LibcxxExplicitABIAnnotations.pop")
+                                               ^
+<scratch space>:71:8: note: expanded from here
+ clang attribute _LibcxxExplicitABIAnnotations.pop
+       ^
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8script.cpp:14:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8script-priv.h:12:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8api.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8core.h:13:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8scope.h:13:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/v8-15.7/v8.h:21:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/memory:944:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__memory/addressof.h:19:1: error: attribute '__visibility__' is not supported by '#pragma clang attribute'
+_LIBCPP_BEGIN_NAMESPACE_STD
+^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:74:39: note: expanded from macro '_LIBCPP_BEGIN_NAMESPACE_STD'
+#  define _LIBCPP_BEGIN_NAMESPACE_STD _LIBCPP_BEGIN_UNVERSIONED_NAMESPACE_STD inline namespace _LIBCPP_ABI_NAMESPACE {
+                                      ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:70:40: note: expanded from macro '_LIBCPP_BEGIN_UNVERSIONED_NAMESPACE_STD'
+    _LIBCPP_PUSH_EXTENSION_DIAGNOSTICS _LIBCPP_END_EXPLICIT_ABI_ANNOTATIONS namespace _LIBCPP_NAMESPACE_VISIBILITY std {
+                                       ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:51:3: note: expanded from macro '_LIBCPP_END_EXPLICIT_ABI_ANNOTATIONS'
+  _Pragma(_LIBCPP_TOSTRING(clang attribute _LibcxxExplicitABIAnnotations.push(                                         \
+  ^
+<scratch space>:10:8: note: expanded from here
+ clang attribute _LibcxxExplicitABIAnnotations.push( __attribute__((__exclude_from_explicit_instantiation__, __visibility__("hidden"), __abi_tag__("nqn230000"))), apply_to = function)
+       ^
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8script.cpp:14:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8script-priv.h:12:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8api.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8core.h:13:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8scope.h:13:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/v8-15.7/v8.h:21:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/memory:944:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__memory/addressof.h:59:1: error: '#pragma clang attribute pop' with no matching '#pragma clang attribute push'
+_LIBCPP_END_NAMESPACE_STD
+^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:75:39: note: expanded from macro '_LIBCPP_END_NAMESPACE_STD'
+#  define _LIBCPP_END_NAMESPACE_STD } _LIBCPP_END_UNVERSIONED_NAMESPACE_STD
+                                      ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:72:51: note: expanded from macro '_LIBCPP_END_UNVERSIONED_NAMESPACE_STD'
+#  define _LIBCPP_END_UNVERSIONED_NAMESPACE_STD } _LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS _LIBCPP_POP_EXTENSION_DIAGNOSTICS
+                                                  ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:57:48: note: expanded from macro '_LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS'
+#define _LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS _Pragma("clang attribute _LibcxxExplicitABIAnnotations.pop")
+                                               ^
+<scratch space>:17:8: note: expanded from here
+ clang attribute _LibcxxExplicitABIAnnotations.pop
+       ^
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8script.cpp:14:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8script-priv.h:12:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8api.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8core.h:13:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8scope.h:13:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/v8-15.7/v8.h:21:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/memory:945:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__memory/align.h:13:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__cstddef/size_t.h:18:1: error: attribute '__visibility__' is not supported by '#pragma clang attribute'
+_LIBCPP_BEGIN_NAMESPACE_STD
+^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:74:39: note: expanded from macro '_LIBCPP_BEGIN_NAMESPACE_STD'
+#  define _LIBCPP_BEGIN_NAMESPACE_STD _LIBCPP_BEGIN_UNVERSIONED_NAMESPACE_STD inline namespace _LIBCPP_ABI_NAMESPACE {
+                                      ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:70:40: note: expanded from macro '_LIBCPP_BEGIN_UNVERSIONED_NAMESPACE_STD'
+    _LIBCPP_PUSH_EXTENSION_DIAGNOSTICS _LIBCPP_END_EXPLICIT_ABI_ANNOTATIONS namespace _LIBCPP_NAMESPACE_VISIBILITY std {
+                                       ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:51:3: note: expanded from macro '_LIBCPP_END_EXPLICIT_ABI_ANNOTATIONS'
+  _Pragma(_LIBCPP_TOSTRING(clang attribute _LibcxxExplicitABIAnnotations.push(                                         \
+  ^
+<scratch space>:24:8: note: expanded from here
+ clang attribute _LibcxxExplicitABIAnnotations.push( __attribute__((__exclude_from_explicit_instantiation__, __visibility__("hidden"), __abi_tag__("nqn230000"))), apply_to = function)
+       ^
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8script.cpp:14:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8script-priv.h:12:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8api.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8core.h:13:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8scope.h:13:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/v8-15.7/v8.h:21:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/memory:945:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__memory/align.h:13:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__cstddef/size_t.h:22:1: error: '#pragma clang attribute pop' with no matching '#pragma clang attribute push'
+_LIBCPP_END_NAMESPACE_STD
+^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:75:39: note: expanded from macro '_LIBCPP_END_NAMESPACE_STD'
+#  define _LIBCPP_END_NAMESPACE_STD } _LIBCPP_END_UNVERSIONED_NAMESPACE_STD
+                                      ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:72:51: note: expanded from macro '_LIBCPP_END_UNVERSIONED_NAMESPACE_STD'
+#  define _LIBCPP_END_UNVERSIONED_NAMESPACE_STD } _LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS _LIBCPP_POP_EXTENSION_DIAGNOSTICS
+                                                  ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:57:48: note: expanded from macro '_LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS'
+#define _LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS _Pragma("clang attribute _LibcxxExplicitABIAnnotations.pop")
+                                               ^
+<scratch space>:26:8: note: expanded from here
+ clang attribute _LibcxxExplicitABIAnnotations.pop
+       ^
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8script.cpp:14:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8script-priv.h:12:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8api.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8core.h:13:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8scope.h:13:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/v8-15.7/v8.h:21:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/memory:945:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__memory/align.h:14:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/cstdint:156:1: error: attribute '__visibility__' is not supported by '#pragma clang attribute'
+_LIBCPP_BEGIN_NAMESPACE_STD
+^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:74:39: note: expanded from macro '_LIBCPP_BEGIN_NAMESPACE_STD'
+#  define _LIBCPP_BEGIN_NAMESPACE_STD _LIBCPP_BEGIN_UNVERSIONED_NAMESPACE_STD inline namespace _LIBCPP_ABI_NAMESPACE {
+                                      ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:70:40: note: expanded from macro '_LIBCPP_BEGIN_UNVERSIONED_NAMESPACE_STD'
+    _LIBCPP_PUSH_EXTENSION_DIAGNOSTICS _LIBCPP_END_EXPLICIT_ABI_ANNOTATIONS namespace _LIBCPP_NAMESPACE_VISIBILITY std {
+                                       ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:51:3: note: expanded from macro '_LIBCPP_END_EXPLICIT_ABI_ANNOTATIONS'
+  _Pragma(_LIBCPP_TOSTRING(clang attribute _LibcxxExplicitABIAnnotations.push(                                         \
+  ^
+<scratch space>:34:8: note: expanded from here
+ clang attribute _LibcxxExplicitABIAnnotations.push( __attribute__((__exclude_from_explicit_instantiation__, __visibility__("hidden"), __abi_tag__("nqn230000"))), apply_to = function)
+       ^
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8script.cpp:14:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8script-priv.h:12:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8api.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8core.h:13:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8scope.h:13:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/v8-15.7/v8.h:21:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/memory:945:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__memory/align.h:14:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/cstdint:194:1: error: '#pragma clang attribute pop' with no matching '#pragma clang attribute push'
+_LIBCPP_END_NAMESPACE_STD
+^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:75:39: note: expanded from macro '_LIBCPP_END_NAMESPACE_STD'
+#  define _LIBCPP_END_NAMESPACE_STD } _LIBCPP_END_UNVERSIONED_NAMESPACE_STD
+                                      ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:72:51: note: expanded from macro '_LIBCPP_END_UNVERSIONED_NAMESPACE_STD'
+#  define _LIBCPP_END_UNVERSIONED_NAMESPACE_STD } _LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS _LIBCPP_POP_EXTENSION_DIAGNOSTICS
+                                                  ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:57:48: note: expanded from macro '_LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS'
+#define _LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS _Pragma("clang attribute _LibcxxExplicitABIAnnotations.pop")
+                                               ^
+<scratch space>:36:8: note: expanded from here
+ clang attribute _LibcxxExplicitABIAnnotations.pop
+       ^
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8script.cpp:14:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8script-priv.h:12:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8api.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8core.h:13:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8scope.h:13:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/v8-15.7/v8.h:21:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/memory:945:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__memory/align.h:20:1: error: attribute '__visibility__' is not supported by '#pragma clang attribute'
+_LIBCPP_BEGIN_NAMESPACE_STD
+^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:74:39: note: expanded from macro '_LIBCPP_BEGIN_NAMESPACE_STD'
+#  define _LIBCPP_BEGIN_NAMESPACE_STD _LIBCPP_BEGIN_UNVERSIONED_NAMESPACE_STD inline namespace _LIBCPP_ABI_NAMESPACE {
+                                      ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:70:40: note: expanded from macro '_LIBCPP_BEGIN_UNVERSIONED_NAMESPACE_STD'
+    _LIBCPP_PUSH_EXTENSION_DIAGNOSTICS _LIBCPP_END_EXPLICIT_ABI_ANNOTATIONS namespace _LIBCPP_NAMESPACE_VISIBILITY std {
+                                       ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:51:3: note: expanded from macro '_LIBCPP_END_EXPLICIT_ABI_ANNOTATIONS'
+  _Pragma(_LIBCPP_TOSTRING(clang attribute _LibcxxExplicitABIAnnotations.push(                                         \
+  ^
+<scratch space>:43:8: note: expanded from here
+ clang attribute _LibcxxExplicitABIAnnotations.push( __attribute__((__exclude_from_explicit_instantiation__, __visibility__("hidden"), __abi_tag__("nqn230000"))), apply_to = function)
+       ^
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8script.cpp:14:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8script-priv.h:12:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8api.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8core.h:13:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8scope.h:13:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/v8-15.7/v8.h:21:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/memory:945:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__memory/align.h:40:1: error: '#pragma clang attribute pop' with no matching '#pragma clang attribute push'
+_LIBCPP_END_NAMESPACE_STD
+^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:75:39: note: expanded from macro '_LIBCPP_END_NAMESPACE_STD'
+#  define _LIBCPP_END_NAMESPACE_STD } _LIBCPP_END_UNVERSIONED_NAMESPACE_STD
+                                      ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:72:51: note: expanded from macro '_LIBCPP_END_UNVERSIONED_NAMESPACE_STD'
+#  define _LIBCPP_END_UNVERSIONED_NAMESPACE_STD } _LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS _LIBCPP_POP_EXTENSION_DIAGNOSTICS
+                                                  ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:57:48: note: expanded from macro '_LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS'
+#define _LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS _Pragma("clang attribute _LibcxxExplicitABIAnnotations.pop")
+                                               ^
+<scratch space>:49:8: note: expanded from here
+ clang attribute _LibcxxExplicitABIAnnotations.pop
+       ^
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8script.cpp:14:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8script-priv.h:12:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8api.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8core.h:13:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8scope.h:13:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/v8-15.7/v8.h:21:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/memory:946:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__memory/allocator.h:14:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__cstddef/ptrdiff_t.h:18:1: error: attribute '__visibility__' is not supported by '#pragma clang attribute'
+_LIBCPP_BEGIN_NAMESPACE_STD
+^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:74:39: note: expanded from macro '_LIBCPP_BEGIN_NAMESPACE_STD'
+#  define _LIBCPP_BEGIN_NAMESPACE_STD _LIBCPP_BEGIN_UNVERSIONED_NAMESPACE_STD inline namespace _LIBCPP_ABI_NAMESPACE {
+                                      ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:70:40: note: expanded from macro '_LIBCPP_BEGIN_UNVERSIONED_NAMESPACE_STD'
+    _LIBCPP_PUSH_EXTENSION_DIAGNOSTICS _LIBCPP_END_EXPLICIT_ABI_ANNOTATIONS namespace _LIBCPP_NAMESPACE_VISIBILITY std {
+                                       ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:51:3: note: expanded from macro '_LIBCPP_END_EXPLICIT_ABI_ANNOTATIONS'
+  _Pragma(_LIBCPP_TOSTRING(clang attribute _LibcxxExplicitABIAnnotations.push(                                         \
+  ^
+<scratch space>:56:8: note: expanded from here
+ clang attribute _LibcxxExplicitABIAnnotations.push( __attribute__((__exclude_from_explicit_instantiation__, __visibility__("hidden"), __abi_tag__("nqn230000"))), apply_to = function)
+       ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+1 warning and 20 errors generated.
+[4/184] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8platform.cpp.o
+FAILED: [code=1] subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8platform.cpp.o 
+/Applications/Xcode_15.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -target arm64e-apple-ios8.0 -isysroot /Applications/Xcode_15.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS17.5.sdk -Isubprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p -Isubprojects/frida-gum/bindings/gumjs -I../subprojects/frida-gum/bindings/gumjs -Isubprojects/frida-gum/bindings -I../subprojects/frida-gum/bindings -Isubprojects/frida-gum -I../subprojects/frida-gum -Isubprojects/frida-gum/gum -I../subprojects/frida-gum/gum -I../subprojects/frida-gum/gum/arch-x86 -I../subprojects/frida-gum/gum/arch-arm -I../subprojects/frida-gum/gum/arch-arm64 -I../subprojects/frida-gum/gum/arch-mips -Isubprojects/frida-gum/libs -I../subprojects/frida-gum/libs -Isubprojects/frida-gum/libs/gum/heap -I../subprojects/frida-gum/libs/gum/heap -Isubprojects/frida-gum/libs/gum/prof -I../subprojects/frida-gum/libs/gum/prof -I../subprojects/frida-gum/gum/backend-darwin/include -I/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0 -I/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/lib/glib-2.0/include -I/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include -I/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/capstone -I/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/quickjs -I/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/v8-15.7 -I/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/gio-unix-2.0 -I/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/json-glib-1.0 -fdiagnostics-color=always -DNDEBUG -Wall -Winvalid-pch -fno-exceptions -fno-rtti -std=c++20 -Oz -g -include /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/build/subprojects/frida-gum/config.h '-DG_LOG_DOMAIN="Frida"' -DGLIB_VERSION_MIN_REQUIRED=GLIB_VERSION_2_56 -DG_DISABLE_DEPRECATED -nostdinc++ -isystem/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++ -DJSON_STATIC_BUILD -DJSON_ENABLE_DEBUG -DLIBC_NAMESPACE=__llvm_libc_cr -DHWY_BROKEN_TARGETS=HWY_ALL_SVE -DV8_GN_HEADER -DFFI_STATIC_BUILD -DPCRE2_STATIC -DGUM_STATIC -MD -MQ subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8platform.cpp.o -MF subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8platform.cpp.o.d -o subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8platform.cpp.o -c ../subprojects/frida-gum/bindings/gumjs/gumv8platform.cpp
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8platform.cpp:7:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8platform.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumscriptscheduler.h:10:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib-object.h:24:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gobject/gbinding.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib.h:32:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/galloca.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gtypes.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/lib/glib-2.0/include/glibconfig.h:9:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gmacros.h:40:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/stddef.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__config:21:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/abi.h:14:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/compiler.h:41:8: warning: "Libc++ only supports AppleClang 26.4 and later" [-W#warnings]
+#      warning "Libc++ only supports AppleClang 26.4 and later"
+       ^
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8platform.cpp:7:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8platform.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumscriptscheduler.h:10:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib-object.h:24:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gobject/gbinding.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gasyncqueue.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gthread.h:36:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gutils.h:469:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/stdlib.h:109:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__math/abs.h:13:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__type_traits/enable_if.h:18:1: error: attribute '__visibility__' is not supported by '#pragma clang attribute'
+_LIBCPP_BEGIN_NAMESPACE_STD
+^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:74:39: note: expanded from macro '_LIBCPP_BEGIN_NAMESPACE_STD'
+#  define _LIBCPP_BEGIN_NAMESPACE_STD _LIBCPP_BEGIN_UNVERSIONED_NAMESPACE_STD inline namespace _LIBCPP_ABI_NAMESPACE {
+                                      ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:70:40: note: expanded from macro '_LIBCPP_BEGIN_UNVERSIONED_NAMESPACE_STD'
+    _LIBCPP_PUSH_EXTENSION_DIAGNOSTICS _LIBCPP_END_EXPLICIT_ABI_ANNOTATIONS namespace _LIBCPP_NAMESPACE_VISIBILITY std {
+                                       ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:51:3: note: expanded from macro '_LIBCPP_END_EXPLICIT_ABI_ANNOTATIONS'
+  _Pragma(_LIBCPP_TOSTRING(clang attribute _LibcxxExplicitABIAnnotations.push(                                         \
+  ^
+<scratch space>:94:8: note: expanded from here
+ clang attribute _LibcxxExplicitABIAnnotations.push( __attribute__((__exclude_from_explicit_instantiation__, __visibility__("hidden"), __abi_tag__("nqn230000"))), apply_to = function)
+       ^
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8platform.cpp:7:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8platform.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumscriptscheduler.h:10:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib-object.h:24:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gobject/gbinding.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gasyncqueue.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gthread.h:36:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gutils.h:469:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/stdlib.h:109:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__math/abs.h:13:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__type_traits/enable_if.h:41:1: error: '#pragma clang attribute pop' with no matching '#pragma clang attribute push'
+_LIBCPP_END_NAMESPACE_STD
+^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:75:39: note: expanded from macro '_LIBCPP_END_NAMESPACE_STD'
+#  define _LIBCPP_END_NAMESPACE_STD } _LIBCPP_END_UNVERSIONED_NAMESPACE_STD
+                                      ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:72:51: note: expanded from macro '_LIBCPP_END_UNVERSIONED_NAMESPACE_STD'
+#  define _LIBCPP_END_UNVERSIONED_NAMESPACE_STD } _LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS _LIBCPP_POP_EXTENSION_DIAGNOSTICS
+                                                  ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:57:48: note: expanded from macro '_LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS'
+#define _LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS _Pragma("clang attribute _LibcxxExplicitABIAnnotations.pop")
+                                               ^
+<scratch space>:101:8: note: expanded from here
+ clang attribute _LibcxxExplicitABIAnnotations.pop
+       ^
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8platform.cpp:7:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8platform.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumscriptscheduler.h:10:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib-object.h:24:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gobject/gbinding.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gasyncqueue.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gthread.h:36:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gutils.h:469:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/stdlib.h:109:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__math/abs.h:14:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__type_traits/is_integral.h:13:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__type_traits/integral_constant.h:18:1: error: attribute '__visibility__' is not supported by '#pragma clang attribute'
+_LIBCPP_BEGIN_NAMESPACE_STD
+^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:74:39: note: expanded from macro '_LIBCPP_BEGIN_NAMESPACE_STD'
+#  define _LIBCPP_BEGIN_NAMESPACE_STD _LIBCPP_BEGIN_UNVERSIONED_NAMESPACE_STD inline namespace _LIBCPP_ABI_NAMESPACE {
+                                      ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:70:40: note: expanded from macro '_LIBCPP_BEGIN_UNVERSIONED_NAMESPACE_STD'
+    _LIBCPP_PUSH_EXTENSION_DIAGNOSTICS _LIBCPP_END_EXPLICIT_ABI_ANNOTATIONS namespace _LIBCPP_NAMESPACE_VISIBILITY std {
+                                       ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:51:3: note: expanded from macro '_LIBCPP_END_EXPLICIT_ABI_ANNOTATIONS'
+  _Pragma(_LIBCPP_TOSTRING(clang attribute _LibcxxExplicitABIAnnotations.push(                                         \
+  ^
+<scratch space>:108:8: note: expanded from here
+ clang attribute _LibcxxExplicitABIAnnotations.push( __attribute__((__exclude_from_explicit_instantiation__, __visibility__("hidden"), __abi_tag__("nqn230000"))), apply_to = function)
+       ^
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8platform.cpp:7:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8platform.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumscriptscheduler.h:10:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib-object.h:24:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gobject/gbinding.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gasyncqueue.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gthread.h:36:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gutils.h:469:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/stdlib.h:109:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__math/abs.h:14:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__type_traits/is_integral.h:13:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__type_traits/integral_constant.h:42:1: error: '#pragma clang attribute pop' with no matching '#pragma clang attribute push'
+_LIBCPP_END_NAMESPACE_STD
+^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:75:39: note: expanded from macro '_LIBCPP_END_NAMESPACE_STD'
+#  define _LIBCPP_END_NAMESPACE_STD } _LIBCPP_END_UNVERSIONED_NAMESPACE_STD
+                                      ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:72:51: note: expanded from macro '_LIBCPP_END_UNVERSIONED_NAMESPACE_STD'
+#  define _LIBCPP_END_UNVERSIONED_NAMESPACE_STD } _LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS _LIBCPP_POP_EXTENSION_DIAGNOSTICS
+                                                  ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:57:48: note: expanded from macro '_LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS'
+#define _LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS _Pragma("clang attribute _LibcxxExplicitABIAnnotations.pop")
+                                               ^
+<scratch space>:118:8: note: expanded from here
+ clang attribute _LibcxxExplicitABIAnnotations.pop
+       ^
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8platform.cpp:7:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8platform.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumscriptscheduler.h:10:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib-object.h:24:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gobject/gbinding.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gasyncqueue.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gthread.h:36:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gutils.h:469:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/stdlib.h:109:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__math/abs.h:14:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__type_traits/is_integral.h:14:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__type_traits/remove_cv.h:18:1: error: attribute '__visibility__' is not supported by '#pragma clang attribute'
+_LIBCPP_BEGIN_NAMESPACE_STD
+^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:74:39: note: expanded from macro '_LIBCPP_BEGIN_NAMESPACE_STD'
+#  define _LIBCPP_BEGIN_NAMESPACE_STD _LIBCPP_BEGIN_UNVERSIONED_NAMESPACE_STD inline namespace _LIBCPP_ABI_NAMESPACE {
+                                      ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:70:40: note: expanded from macro '_LIBCPP_BEGIN_UNVERSIONED_NAMESPACE_STD'
+    _LIBCPP_PUSH_EXTENSION_DIAGNOSTICS _LIBCPP_END_EXPLICIT_ABI_ANNOTATIONS namespace _LIBCPP_NAMESPACE_VISIBILITY std {
+                                       ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:51:3: note: expanded from macro '_LIBCPP_END_EXPLICIT_ABI_ANNOTATIONS'
+  _Pragma(_LIBCPP_TOSTRING(clang attribute _LibcxxExplicitABIAnnotations.push(                                         \
+  ^
+<scratch space>:2:8: note: expanded from here
+ clang attribute _LibcxxExplicitABIAnnotations.push( __attribute__((__exclude_from_explicit_instantiation__, __visibility__("hidden"), __abi_tag__("nqn230000"))), apply_to = function)
+       ^
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8platform.cpp:7:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8platform.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumscriptscheduler.h:10:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib-object.h:24:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gobject/gbinding.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gasyncqueue.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gthread.h:36:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gutils.h:469:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/stdlib.h:109:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__math/abs.h:14:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__type_traits/is_integral.h:14:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__type_traits/remove_cv.h:38:1: error: '#pragma clang attribute pop' with no matching '#pragma clang attribute push'
+_LIBCPP_END_NAMESPACE_STD
+^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:75:39: note: expanded from macro '_LIBCPP_END_NAMESPACE_STD'
+#  define _LIBCPP_END_NAMESPACE_STD } _LIBCPP_END_UNVERSIONED_NAMESPACE_STD
+                                      ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:72:51: note: expanded from macro '_LIBCPP_END_UNVERSIONED_NAMESPACE_STD'
+#  define _LIBCPP_END_UNVERSIONED_NAMESPACE_STD } _LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS _LIBCPP_POP_EXTENSION_DIAGNOSTICS
+                                                  ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:57:48: note: expanded from macro '_LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS'
+#define _LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS _Pragma("clang attribute _LibcxxExplicitABIAnnotations.pop")
+                                               ^
+<scratch space>:4:8: note: expanded from here
+ clang attribute _LibcxxExplicitABIAnnotations.pop
+       ^
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8platform.cpp:7:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8platform.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumscriptscheduler.h:10:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib-object.h:24:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gobject/gbinding.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gasyncqueue.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gthread.h:36:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gutils.h:469:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/stdlib.h:109:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__math/abs.h:14:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__type_traits/is_integral.h:20:1: error: attribute '__visibility__' is not supported by '#pragma clang attribute'
+_LIBCPP_BEGIN_NAMESPACE_STD
+^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:74:39: note: expanded from macro '_LIBCPP_BEGIN_NAMESPACE_STD'
+#  define _LIBCPP_BEGIN_NAMESPACE_STD _LIBCPP_BEGIN_UNVERSIONED_NAMESPACE_STD inline namespace _LIBCPP_ABI_NAMESPACE {
+                                      ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:70:40: note: expanded from macro '_LIBCPP_BEGIN_UNVERSIONED_NAMESPACE_STD'
+    _LIBCPP_PUSH_EXTENSION_DIAGNOSTICS _LIBCPP_END_EXPLICIT_ABI_ANNOTATIONS namespace _LIBCPP_NAMESPACE_VISIBILITY std {
+                                       ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:51:3: note: expanded from macro '_LIBCPP_END_EXPLICIT_ABI_ANNOTATIONS'
+  _Pragma(_LIBCPP_TOSTRING(clang attribute _LibcxxExplicitABIAnnotations.push(                                         \
+  ^
+<scratch space>:11:8: note: expanded from here
+ clang attribute _LibcxxExplicitABIAnnotations.push( __attribute__((__exclude_from_explicit_instantiation__, __visibility__("hidden"), __abi_tag__("nqn230000"))), apply_to = function)
+       ^
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8platform.cpp:7:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8platform.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumscriptscheduler.h:10:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib-object.h:24:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gobject/gbinding.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gasyncqueue.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gthread.h:36:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gutils.h:469:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/stdlib.h:109:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__math/abs.h:14:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__type_traits/is_integral.h:72:1: error: '#pragma clang attribute pop' with no matching '#pragma clang attribute push'
+_LIBCPP_END_NAMESPACE_STD
+^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:75:39: note: expanded from macro '_LIBCPP_END_NAMESPACE_STD'
+#  define _LIBCPP_END_NAMESPACE_STD } _LIBCPP_END_UNVERSIONED_NAMESPACE_STD
+                                      ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:72:51: note: expanded from macro '_LIBCPP_END_UNVERSIONED_NAMESPACE_STD'
+#  define _LIBCPP_END_UNVERSIONED_NAMESPACE_STD } _LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS _LIBCPP_POP_EXTENSION_DIAGNOSTICS
+                                                  ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:57:48: note: expanded from macro '_LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS'
+#define _LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS _Pragma("clang attribute _LibcxxExplicitABIAnnotations.pop")
+                                               ^
+<scratch space>:14:8: note: expanded from here
+ clang attribute _LibcxxExplicitABIAnnotations.pop
+       ^
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8platform.cpp:7:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8platform.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumscriptscheduler.h:10:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib-object.h:24:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gobject/gbinding.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gasyncqueue.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gthread.h:36:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gutils.h:469:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/stdlib.h:109:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__math/abs.h:20:1: error: attribute '__visibility__' is not supported by '#pragma clang attribute'
+_LIBCPP_BEGIN_NAMESPACE_STD
+^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:74:39: note: expanded from macro '_LIBCPP_BEGIN_NAMESPACE_STD'
+#  define _LIBCPP_BEGIN_NAMESPACE_STD _LIBCPP_BEGIN_UNVERSIONED_NAMESPACE_STD inline namespace _LIBCPP_ABI_NAMESPACE {
+                                      ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:70:40: note: expanded from macro '_LIBCPP_BEGIN_UNVERSIONED_NAMESPACE_STD'
+    _LIBCPP_PUSH_EXTENSION_DIAGNOSTICS _LIBCPP_END_EXPLICIT_ABI_ANNOTATIONS namespace _LIBCPP_NAMESPACE_VISIBILITY std {
+                                       ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:51:3: note: expanded from macro '_LIBCPP_END_EXPLICIT_ABI_ANNOTATIONS'
+  _Pragma(_LIBCPP_TOSTRING(clang attribute _LibcxxExplicitABIAnnotations.push(                                         \
+  ^
+<scratch space>:21:8: note: expanded from here
+ clang attribute _LibcxxExplicitABIAnnotations.push( __attribute__((__exclude_from_explicit_instantiation__, __visibility__("hidden"), __abi_tag__("nqn230000"))), apply_to = function)
+       ^
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8platform.cpp:7:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8platform.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumscriptscheduler.h:10:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib-object.h:24:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gobject/gbinding.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gasyncqueue.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gthread.h:36:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gutils.h:469:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/stdlib.h:109:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__math/abs.h:81:1: error: '#pragma clang attribute pop' with no matching '#pragma clang attribute push'
+_LIBCPP_END_NAMESPACE_STD
+^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:75:39: note: expanded from macro '_LIBCPP_END_NAMESPACE_STD'
+#  define _LIBCPP_END_NAMESPACE_STD } _LIBCPP_END_UNVERSIONED_NAMESPACE_STD
+                                      ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:72:51: note: expanded from macro '_LIBCPP_END_UNVERSIONED_NAMESPACE_STD'
+#  define _LIBCPP_END_UNVERSIONED_NAMESPACE_STD } _LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS _LIBCPP_POP_EXTENSION_DIAGNOSTICS
+                                                  ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:57:48: note: expanded from macro '_LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS'
+#define _LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS _Pragma("clang attribute _LibcxxExplicitABIAnnotations.pop")
+                                               ^
+<scratch space>:71:8: note: expanded from here
+ clang attribute _LibcxxExplicitABIAnnotations.pop
+       ^
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8platform.cpp:7:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8platform.h:12:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/functional:539:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__functional/binary_function.h:19:1: error: attribute '__visibility__' is not supported by '#pragma clang attribute'
+_LIBCPP_BEGIN_NAMESPACE_STD
+^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:74:39: note: expanded from macro '_LIBCPP_BEGIN_NAMESPACE_STD'
+#  define _LIBCPP_BEGIN_NAMESPACE_STD _LIBCPP_BEGIN_UNVERSIONED_NAMESPACE_STD inline namespace _LIBCPP_ABI_NAMESPACE {
+                                      ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:70:40: note: expanded from macro '_LIBCPP_BEGIN_UNVERSIONED_NAMESPACE_STD'
+    _LIBCPP_PUSH_EXTENSION_DIAGNOSTICS _LIBCPP_END_EXPLICIT_ABI_ANNOTATIONS namespace _LIBCPP_NAMESPACE_VISIBILITY std {
+                                       ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:51:3: note: expanded from macro '_LIBCPP_END_EXPLICIT_ABI_ANNOTATIONS'
+  _Pragma(_LIBCPP_TOSTRING(clang attribute _LibcxxExplicitABIAnnotations.push(                                         \
+  ^
+<scratch space>:94:8: note: expanded from here
+ clang attribute _LibcxxExplicitABIAnnotations.push( __attribute__((__exclude_from_explicit_instantiation__, __visibility__("hidden"), __abi_tag__("nqn230000"))), apply_to = function)
+       ^
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8platform.cpp:7:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8platform.h:12:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/functional:539:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__functional/binary_function.h:51:1: error: '#pragma clang attribute pop' with no matching '#pragma clang attribute push'
+_LIBCPP_END_NAMESPACE_STD
+^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:75:39: note: expanded from macro '_LIBCPP_END_NAMESPACE_STD'
+#  define _LIBCPP_END_NAMESPACE_STD } _LIBCPP_END_UNVERSIONED_NAMESPACE_STD
+                                      ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:72:51: note: expanded from macro '_LIBCPP_END_UNVERSIONED_NAMESPACE_STD'
+#  define _LIBCPP_END_UNVERSIONED_NAMESPACE_STD } _LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS _LIBCPP_POP_EXTENSION_DIAGNOSTICS
+                                                  ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:57:48: note: expanded from macro '_LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS'
+#define _LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS _Pragma("clang attribute _LibcxxExplicitABIAnnotations.pop")
+                                               ^
+<scratch space>:96:8: note: expanded from here
+ clang attribute _LibcxxExplicitABIAnnotations.pop
+       ^
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8platform.cpp:7:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8platform.h:12:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/functional:541:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__functional/bind.h:14:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__functional/weak_result_type.h:15:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__functional/unary_function.h:18:1: error: attribute '__visibility__' is not supported by '#pragma clang attribute'
+_LIBCPP_BEGIN_NAMESPACE_STD
+^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:74:39: note: expanded from macro '_LIBCPP_BEGIN_NAMESPACE_STD'
+#  define _LIBCPP_BEGIN_NAMESPACE_STD _LIBCPP_BEGIN_UNVERSIONED_NAMESPACE_STD inline namespace _LIBCPP_ABI_NAMESPACE {
+                                      ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:70:40: note: expanded from macro '_LIBCPP_BEGIN_UNVERSIONED_NAMESPACE_STD'
+    _LIBCPP_PUSH_EXTENSION_DIAGNOSTICS _LIBCPP_END_EXPLICIT_ABI_ANNOTATIONS namespace _LIBCPP_NAMESPACE_VISIBILITY std {
+                                       ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:51:3: note: expanded from macro '_LIBCPP_END_EXPLICIT_ABI_ANNOTATIONS'
+  _Pragma(_LIBCPP_TOSTRING(clang attribute _LibcxxExplicitABIAnnotations.push(                                         \
+  ^
+<scratch space>:103:8: note: expanded from here
+ clang attribute _LibcxxExplicitABIAnnotations.push( __attribute__((__exclude_from_explicit_instantiation__, __visibility__("hidden"), __abi_tag__("nqn230000"))), apply_to = function)
+       ^
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8platform.cpp:7:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8platform.h:12:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/functional:541:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__functional/bind.h:14:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__functional/weak_result_type.h:15:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__functional/unary_function.h:48:1: error: '#pragma clang attribute pop' with no matching '#pragma clang attribute push'
+_LIBCPP_END_NAMESPACE_STD
+^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:75:39: note: expanded from macro '_LIBCPP_END_NAMESPACE_STD'
+#  define _LIBCPP_END_NAMESPACE_STD } _LIBCPP_END_UNVERSIONED_NAMESPACE_STD
+                                      ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:72:51: note: expanded from macro '_LIBCPP_END_UNVERSIONED_NAMESPACE_STD'
+#  define _LIBCPP_END_UNVERSIONED_NAMESPACE_STD } _LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS _LIBCPP_POP_EXTENSION_DIAGNOSTICS
+                                                  ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:57:48: note: expanded from macro '_LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS'
+#define _LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS _Pragma("clang attribute _LibcxxExplicitABIAnnotations.pop")
+                                               ^
+<scratch space>:105:8: note: expanded from here
+ clang attribute _LibcxxExplicitABIAnnotations.pop
+       ^
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8platform.cpp:7:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8platform.h:12:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/functional:541:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__functional/bind.h:14:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__functional/weak_result_type.h:16:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__type_traits/invoke.h:14:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__type_traits/conditional.h:18:1: error: attribute '__visibility__' is not supported by '#pragma clang attribute'
+_LIBCPP_BEGIN_NAMESPACE_STD
+^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:74:39: note: expanded from macro '_LIBCPP_BEGIN_NAMESPACE_STD'
+#  define _LIBCPP_BEGIN_NAMESPACE_STD _LIBCPP_BEGIN_UNVERSIONED_NAMESPACE_STD inline namespace _LIBCPP_ABI_NAMESPACE {
+                                      ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:70:40: note: expanded from macro '_LIBCPP_BEGIN_UNVERSIONED_NAMESPACE_STD'
+    _LIBCPP_PUSH_EXTENSION_DIAGNOSTICS _LIBCPP_END_EXPLICIT_ABI_ANNOTATIONS namespace _LIBCPP_NAMESPACE_VISIBILITY std {
+                                       ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:51:3: note: expanded from macro '_LIBCPP_END_EXPLICIT_ABI_ANNOTATIONS'
+  _Pragma(_LIBCPP_TOSTRING(clang attribute _LibcxxExplicitABIAnnotations.push(                                         \
+  ^
+<scratch space>:112:8: note: expanded from here
+ clang attribute _LibcxxExplicitABIAnnotations.push( __attribute__((__exclude_from_explicit_instantiation__, __visibility__("hidden"), __abi_tag__("nqn230000"))), apply_to = function)
+       ^
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8platform.cpp:7:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8platform.h:12:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/functional:541:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__functional/bind.h:14:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__functional/weak_result_type.h:16:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__type_traits/invoke.h:14:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__type_traits/conditional.h:52:1: error: '#pragma clang attribute pop' with no matching '#pragma clang attribute push'
+_LIBCPP_END_NAMESPACE_STD
+^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:75:39: note: expanded from macro '_LIBCPP_END_NAMESPACE_STD'
+#  define _LIBCPP_END_NAMESPACE_STD } _LIBCPP_END_UNVERSIONED_NAMESPACE_STD
+                                      ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:72:51: note: expanded from macro '_LIBCPP_END_UNVERSIONED_NAMESPACE_STD'
+#  define _LIBCPP_END_UNVERSIONED_NAMESPACE_STD } _LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS _LIBCPP_POP_EXTENSION_DIAGNOSTICS
+                                                  ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:57:48: note: expanded from macro '_LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS'
+#define _LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS _Pragma("clang attribute _LibcxxExplicitABIAnnotations.pop")
+                                               ^
+<scratch space>:114:8: note: expanded from here
+ clang attribute _LibcxxExplicitABIAnnotations.pop
+       ^
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8platform.cpp:7:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8platform.h:12:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/functional:541:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__functional/bind.h:14:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__functional/weak_result_type.h:16:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__type_traits/invoke.h:15:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__type_traits/decay.h:18:1: error: attribute '__visibility__' is not supported by '#pragma clang attribute'
+_LIBCPP_BEGIN_NAMESPACE_STD
+^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:74:39: note: expanded from macro '_LIBCPP_BEGIN_NAMESPACE_STD'
+#  define _LIBCPP_BEGIN_NAMESPACE_STD _LIBCPP_BEGIN_UNVERSIONED_NAMESPACE_STD inline namespace _LIBCPP_ABI_NAMESPACE {
+                                      ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:70:40: note: expanded from macro '_LIBCPP_BEGIN_UNVERSIONED_NAMESPACE_STD'
+    _LIBCPP_PUSH_EXTENSION_DIAGNOSTICS _LIBCPP_END_EXPLICIT_ABI_ANNOTATIONS namespace _LIBCPP_NAMESPACE_VISIBILITY std {
+                                       ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:51:3: note: expanded from macro '_LIBCPP_END_EXPLICIT_ABI_ANNOTATIONS'
+  _Pragma(_LIBCPP_TOSTRING(clang attribute _LibcxxExplicitABIAnnotations.push(                                         \
+  ^
+<scratch space>:3:8: note: expanded from here
+ clang attribute _LibcxxExplicitABIAnnotations.push( __attribute__((__exclude_from_explicit_instantiation__, __visibility__("hidden"), __abi_tag__("nqn230000"))), apply_to = function)
+       ^
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8platform.cpp:7:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8platform.h:12:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/functional:541:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__functional/bind.h:14:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__functional/weak_result_type.h:16:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__type_traits/invoke.h:15:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__type_traits/decay.h:38:1: error: '#pragma clang attribute pop' with no matching '#pragma clang attribute push'
+_LIBCPP_END_NAMESPACE_STD
+^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:75:39: note: expanded from macro '_LIBCPP_END_NAMESPACE_STD'
+#  define _LIBCPP_END_NAMESPACE_STD } _LIBCPP_END_UNVERSIONED_NAMESPACE_STD
+                                      ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:72:51: note: expanded from macro '_LIBCPP_END_UNVERSIONED_NAMESPACE_STD'
+#  define _LIBCPP_END_UNVERSIONED_NAMESPACE_STD } _LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS _LIBCPP_POP_EXTENSION_DIAGNOSTICS
+                                                  ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:57:48: note: expanded from macro '_LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS'
+#define _LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS _Pragma("clang attribute _LibcxxExplicitABIAnnotations.pop")
+                                               ^
+<scratch space>:5:8: note: expanded from here
+ clang attribute _LibcxxExplicitABIAnnotations.pop
+       ^
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8platform.cpp:7:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8platform.h:12:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/functional:541:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__functional/bind.h:14:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__functional/weak_result_type.h:16:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__type_traits/invoke.h:18:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__type_traits/is_base_of.h:19:1: error: attribute '__visibility__' is not supported by '#pragma clang attribute'
+_LIBCPP_BEGIN_NAMESPACE_STD
+^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:74:39: note: expanded from macro '_LIBCPP_BEGIN_NAMESPACE_STD'
+#  define _LIBCPP_BEGIN_NAMESPACE_STD _LIBCPP_BEGIN_UNVERSIONED_NAMESPACE_STD inline namespace _LIBCPP_ABI_NAMESPACE {
+                                      ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:70:40: note: expanded from macro '_LIBCPP_BEGIN_UNVERSIONED_NAMESPACE_STD'
+    _LIBCPP_PUSH_EXTENSION_DIAGNOSTICS _LIBCPP_END_EXPLICIT_ABI_ANNOTATIONS namespace _LIBCPP_NAMESPACE_VISIBILITY std {
+                                       ^
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h:51:3: note: expanded from macro '_LIBCPP_END_EXPLICIT_ABI_ANNOTATIONS'
+  _Pragma(_LIBCPP_TOSTRING(clang attribute _LibcxxExplicitABIAnnotations.push(                                         \
+  ^
+<scratch space>:12:8: note: expanded from here
+ clang attribute _LibcxxExplicitABIAnnotations.push( __attribute__((__exclude_from_explicit_instantiation__, __visibility__("hidden"), __abi_tag__("nqn230000"))), apply_to = function)
+       ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+1 warning and 20 errors generated.
+ninja: build stopped: subcommand failed.
+Could not rebuild /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/build
+Command '['/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/.venv/bin/python3', '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/releng/meson/meson.py', 'install']' returned non-zero exit status 255.
+gmake: *** [Makefile:4: install] Error 1
+find: /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist: No such file or directory
+find: /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist: No such file or directory
+[0;31m[build][0m frida-server not found under dist/
+find: /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist: No such file or directory
