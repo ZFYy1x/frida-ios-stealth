@@ -36,11 +36,13 @@ concurrency:
 
 jobs:
   build:
-    # GitHub retired the macos-14 image on 2026-11-02. Jobs still using it are
-    # cancelled before a runner is assigned ("configuration
-    # macos-14-arm64-us-default is not supported"). macos-15 is the supported
-    # arm64 image for public repositories.
-    runs-on: macos-15
+    # GitHub retired macos-14 on 2026-11-02 (jobs were cancelled with
+    # "configuration macos-14-arm64-us-default is not supported").
+    # macos-15 (arm64, 3C/7G) repeatedly queued 15+ minutes and was cancelled
+    # with "job was not acquired by Runner of type hosted ... capacity
+    # constraints for macOS arm64". macos-15-intel is 4C/14G with a much less
+    # contended queue; Xcode cross-compiles iOS arm64e from Intel just fine.
+    runs-on: macos-15-intel
     timeout-minutes: 150
     steps:
       - name: Checkout
