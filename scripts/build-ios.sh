@@ -62,6 +62,57 @@ log "configuring (host=ios-arm64e, prefix=/var/jb/usr)"
   -- \
   -Dfrida-core:assets=installed
 
+# --- libc++ / Apple clang compatibility -----------------------------------
+# Frida's prebuilt iOS SDK ships libc++ headers that apply
+# __attribute__((__visibility__("hidden"), __abi_tag__(...))) via
+# `#pragma clang attribute`. Every Apple clang on GitHub's macOS images
+# (Xcode 15.4 / 16.4 / 26.3 are all clang-17 based) rejects __visibility__
+# in that pragma, failing every C++ translation unit with:
+#   error: attribute '__visibility__' is not supported by '#pragma clang attribute'
+#   error: '#pragma clang attribute pop' with no matching '#pragma clang attribute push'
+# Neutralise the two macros in the vendored header. This only removes an
+# explicit-instantiation visibility hint, not any runtime behaviour.
+python3 - "${WORK}/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h" <<'PYEOF'
+import sys
+from pathlib import Path
+p = Path(sys.argv[1])
+if not p.is_file():
+    print("[build] libc++ namespace.h not found; nothing to patch")
+    sys.exit(0)
+s = p.read_text()
+if "clang attribute _LibcxxExplicitABIAnnotations" not in s:
+    print("[build] libc++ header has no explicit ABI pragma; nothing to patch")
+    sys.exit(0)
+# Replace the two macro definitions (which may span backslash-continued
+# lines) with empty definitions. Layout-independent: works whether or not
+# the clang-based branch is wrapped in an #ifdef.
+out = []
+skipping = False
+macros = ("_LIBCPP_END_EXPLICIT_ABI_ANNOTATIONS", "_LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS")
+for line in s.splitlines(keepends=True):
+    if skipping:
+        if not line.rstrip().endswith(chr(92)):
+            skipping = False
+        continue
+    stripped = line.lstrip()
+    hit = ""
+    for macro in macros:
+        if stripped.startswith("#define " + macro) or stripped.startswith("# define " + macro):
+            hit = macro
+            break
+    if hit:
+        out.append("#define " + hit + chr(10))
+        skipping = line.rstrip().endswith(chr(92))
+        continue
+    out.append(line)
+s2 = "".join(out)
+if "clang attribute _LibcxxExplicitABIAnnotations" in s2:
+    print("[build] ERROR: failed to neutralise libc++ explicit ABI macros")
+    sys.exit(1)
+p.write_text(s2)
+print("[build] patched libc++ namespace.h (explicit ABI pragma disabled)")
+PYEOF
+
 NPROC=$(( $(/usr/sbin/sysctl -n hw.logicalcpu) + 1 ))
 log "building with -j${NPROC}"
 gmake -j"${NPROC}"

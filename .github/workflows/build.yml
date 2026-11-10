@@ -82,16 +82,16 @@ jobs:
         if: steps.resolve.outputs.build == 'yes'
         run: |
           echo "Available Xcodes:"; ls /Applications | grep -i xcode || true
-          # Frida 17.2x bundles libc++ headers using
-          # `#pragma clang attribute ... __visibility__`; Apple clang 15
-          # (Xcode 15.x) rejects them with "attribute '__visibility__' is not
-          # supported by '#pragma clang attribute'". Pinning Xcode_15.4 was the
-          # build failure on the old image - prefer the newest Xcode instead.
-          # Pick the numerically highest Xcode_*.app on the image. Hardcoded
-          # names such as "Xcode_26" do not exist (real ones are
-          # Xcode_26.3.0.app / Xcode_16.4.app), which silently fell back to
-          # Xcode 16.4 and reproduced the libc++ error.
-          XCODE="$(python3 -c 'import glob,re; c=glob.glob("/Applications/Xcode_*.app"); k=lambda p:tuple(int(x or 0) for x in re.search(r"Xcode_([0-9]+)(?:\.([0-9]+))?(?:\.([0-9]+))?",p).groups()) if re.search(r"Xcode_([0-9]+)",p) else (0,0,0); print(max(c,key=k) if c else "")')"
+          # Xcode only controls the SDK/clang; all Apple clang versions on
+          # these images (15.4 / 16.4 / 26.3) are clang-17 based and reject
+          # the libc++ __visibility__ pragma. The real fix lives in
+          # scripts/build-ios.sh, which neutralises that macro in the vendored
+          # SDK. Prefer Xcode 16.4 (iOS 18.5 SDK, configure is known to work),
+          # otherwise fall back to the numerically highest installed Xcode.
+          XCODE="/Applications/Xcode_16.4.app"
+          if [ ! -d "$XCODE" ]; then
+            XCODE="$(python3 -c 'import glob,re; c=glob.glob("/Applications/Xcode_*.app"); k=lambda p:tuple(int(x or 0) for x in re.search(r"Xcode_([0-9]+)(?:\.([0-9]+))?(?:\.([0-9]+))?",p).groups()) if re.search(r"Xcode_([0-9]+)",p) else (0,0,0); print(max(c,key=k) if c else "")')"
+          fi
           if [ -z "$XCODE" ]; then
             XCODE="$(xcode-select -p | sed 's|/Contents/Developer$||')"
             echo "Falling back to default Xcode: $XCODE"
