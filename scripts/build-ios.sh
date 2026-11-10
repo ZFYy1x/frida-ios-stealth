@@ -72,45 +72,48 @@ log "configuring (host=ios-arm64e, prefix=/var/jb/usr)"
 #   error: '#pragma clang attribute pop' with no matching '#pragma clang attribute push'
 # Neutralise the two macros in the vendored header. This only removes an
 # explicit-instantiation visibility hint, not any runtime behaviour.
-python3 - "${WORK}/frida/deps/sdk-ios-arm64e/include/c++/__configuration/namespace.h" <<'PYEOF'
+python3 - "${WORK}/frida/deps" <<'PYEOF'
 import sys
 from pathlib import Path
-p = Path(sys.argv[1])
-if not p.is_file():
-    print("[build] libc++ namespace.h not found; nothing to patch")
+root = Path(sys.argv[1])
+# --host=ios-arm64e emits a fat arm64+arm64e binary, so BOTH
+# deps/sdk-ios-arm64e and deps/sdk-ios-arm64 are compiled against.
+targets = sorted(root.glob("sdk-*/include/c++/__configuration/namespace.h"))
+if not targets:
+    print("[build] no libc++ namespace.h under deps/; nothing to patch")
     sys.exit(0)
-s = p.read_text()
-if "clang attribute _LibcxxExplicitABIAnnotations" not in s:
-    print("[build] libc++ header has no explicit ABI pragma; nothing to patch")
-    sys.exit(0)
-# Replace the two macro definitions (which may span backslash-continued
-# lines) with empty definitions. Layout-independent: works whether or not
-# the clang-based branch is wrapped in an #ifdef.
-out = []
-skipping = False
 macros = ("_LIBCPP_END_EXPLICIT_ABI_ANNOTATIONS", "_LIBCPP_BEGIN_EXPLICIT_ABI_ANNOTATIONS")
-for line in s.splitlines(keepends=True):
-    if skipping:
-        if not line.rstrip().endswith(chr(92)):
-            skipping = False
+changed = 0
+for p in targets:
+    s = p.read_text()
+    if "clang attribute _LibcxxExplicitABIAnnotations" not in s:
         continue
-    stripped = line.lstrip()
-    hit = ""
-    for macro in macros:
-        if stripped.startswith("#define " + macro) or stripped.startswith("# define " + macro):
-            hit = macro
-            break
-    if hit:
-        out.append("#define " + hit + chr(10))
-        skipping = line.rstrip().endswith(chr(92))
-        continue
-    out.append(line)
-s2 = "".join(out)
-if "clang attribute _LibcxxExplicitABIAnnotations" in s2:
-    print("[build] ERROR: failed to neutralise libc++ explicit ABI macros")
-    sys.exit(1)
-p.write_text(s2)
-print("[build] patched libc++ namespace.h (explicit ABI pragma disabled)")
+    out = []
+    skipping = False
+    for line in s.splitlines(keepends=True):
+        if skipping:
+            if not line.rstrip().endswith(chr(92)):
+                skipping = False
+            continue
+        stripped = line.lstrip()
+        hit = ""
+        for macro in macros:
+            if stripped.startswith("#define " + macro) or stripped.startswith("# define " + macro):
+                hit = macro
+                break
+        if hit:
+            out.append("#define " + hit + chr(10))
+            skipping = line.rstrip().endswith(chr(92))
+            continue
+        out.append(line)
+    s2 = "".join(out)
+    if "clang attribute _LibcxxExplicitABIAnnotations" in s2:
+        print("[build] ERROR: failed to neutralise libc++ macros in", p)
+        sys.exit(1)
+    p.write_text(s2)
+    changed += 1
+    print("[build] patched", str(p.relative_to(root)))
+print("[build] libc++ explicit ABI pragma disabled in", changed, "SDK header(s)")
 PYEOF
 
 NPROC=$(( $(/usr/sbin/sysctl -n hw.logicalcpu) + 1 ))
