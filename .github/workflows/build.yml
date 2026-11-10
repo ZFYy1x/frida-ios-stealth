@@ -27,13 +27,20 @@ on:
 permissions:
   contents: write
 
+# Keep builds serialised, but never cancel an in-flight run. With
+# cancel-in-progress: true a delayed/duplicated schedule could kill the only
+# run before it is ever assigned a runner.
 concurrency:
   group: build-${{ github.ref }}
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   build:
-    runs-on: macos-14
+    # GitHub retired the macos-14 image on 2026-11-02. Jobs still using it are
+    # cancelled before a runner is assigned ("configuration
+    # macos-14-arm64-us-default is not supported"). macos-15 is the supported
+    # arm64 image for public repositories.
+    runs-on: macos-15
     timeout-minutes: 150
     steps:
       - name: Checkout
@@ -75,10 +82,23 @@ jobs:
         if: steps.resolve.outputs.build == 'yes'
         run: |
           echo "Available Xcodes:"; ls /Applications | grep -i xcode || true
-          for x in Xcode_15.4 Xcode_15.3 Xcode_15.2 Xcode_15.1 Xcode_15.0.1 Xcode; do
-            if [ -d "/Applications/$x.app" ]; then sudo xcode-select -s "/Applications/$x.app"; break; fi
+          # Frida 17.2x bundles libc++ headers using
+          # `#pragma clang attribute ... __visibility__`; Apple clang 15
+          # (Xcode 15.x) rejects them with "attribute '__visibility__' is not
+          # supported by '#pragma clang attribute'". Pinning Xcode_15.4 was the
+          # build failure on the old image - prefer the newest Xcode instead.
+          XCODE=""
+          for x in Xcode_26 Xcode_17 Xcode_16.4 Xcode_16.3 Xcode_16.2 Xcode_16.1 Xcode; do
+            if [ -d "/Applications/$x.app" ]; then XCODE="/Applications/$x.app"; break; fi
           done
+          if [ -z "$XCODE" ]; then
+            XCODE="$(xcode-select -p | sed 's|/Contents/Developer$||')"
+            echo "Falling back to default Xcode: $XCODE"
+          fi
+          echo "Using $XCODE"
+          sudo xcode-select -s "$XCODE"
           xcodebuild -version || true
+          clang --version || true
           xcrun --sdk iphoneos --show-sdk-path || true
 
       - name: Install build deps
