@@ -62,8 +62,13 @@ jobs:
             exit 0
           fi
           # Latest stable upstream release of frida/frida (the real upstream of this build).
-          LATEST="$(curl -fsSL https://api.github.com/repos/frida/frida/releases/latest \
-            | python3 -c 'import sys,json;print(json.load(sys.stdin)["tag_name"])')"
+          # Use the authenticated CLI: unauthenticated curl to api.github.com
+          # hits the shared runner IP rate limit (403) and breaks the whole run.
+          LATEST="$(gh api repos/frida/frida/releases/latest --jq '.tag_name')"
+          if [ -z "$LATEST" ]; then
+            echo "::error::could not resolve upstream frida/frida latest release"
+            exit 1
+          fi
           echo "upstream frida/frida latest tag: $LATEST"
           # Last version published in THIS repo (strip leading v for comparison).
           CURRENT="$(gh release list --repo "$GITHUB_REPOSITORY" --limit 1 --json tagName \
