@@ -157,7 +157,7 @@ jobs:
             echo "Anti-detect frida-server for iOS - roothide Dopamine, rootless, arm64e."
             echo
             echo "- frida version: \`${ver}\`"
-            echo "- built: $(date -u +%FT%TZ) in GitHub Actions (macos-14)"
+            echo "- built: $(date -u +%FT%TZ) in GitHub Actions (macos-15-intel)"
             echo
             echo "## Applied / skipped Florida patches"
             echo '```'
