@@ -1,0 +1,998 @@
+ded from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__config:21:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/abi.h:14:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/compiler.h:41:8: warning: "Libc++ only supports AppleClang 26.4 and later" [-W#warnings]
+   41 | #      warning "Libc++ only supports AppleClang 26.4 and later"
+      |        ^
+1 warning generated.
+[159/340] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8value.cpp.o
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8value.cpp:8:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8value.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8core.h:12:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumscriptscheduler.h:10:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib-object.h:24:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gobject/gbinding.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib.h:32:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/galloca.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gtypes.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/lib/glib-2.0/include/glibconfig.h:9:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gmacros.h:40:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/stddef.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__config:21:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/abi.h:14:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/compiler.h:41:8: warning: "Libc++ only supports AppleClang 26.4 and later" [-W#warnings]
+   41 | #      warning "Libc++ only supports AppleClang 26.4 and later"
+      |        ^
+1 warning generated.
+[160/340] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8script.cpp.o
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8script.cpp:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8script.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumscript.h:11:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gio/gio.h:28:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gio/giotypes.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gio/gioenums.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib-object.h:24:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gobject/gbinding.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib.h:32:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/galloca.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gtypes.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/lib/glib-2.0/include/glibconfig.h:9:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gmacros.h:40:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/stddef.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__config:21:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/abi.h:14:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/compiler.h:41:8: warning: "Libc++ only supports AppleClang 26.4 and later" [-W#warnings]
+   41 | #      warning "Libc++ only supports AppleClang 26.4 and later"
+      |        ^
+1 warning generated.
+[161/340] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8object.cpp.o
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8object.cpp:7:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8object.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8core.h:12:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumscriptscheduler.h:10:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib-object.h:24:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gobject/gbinding.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib.h:32:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/galloca.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gtypes.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/lib/glib-2.0/include/glibconfig.h:9:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gmacros.h:40:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/stddef.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__config:21:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/abi.h:14:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/compiler.h:41:8: warning: "Libc++ only supports AppleClang 26.4 and later" [-W#warnings]
+   41 | #      warning "Libc++ only supports AppleClang 26.4 and later"
+      |        ^
+1 warning generated.
+[162/340] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8platform.cpp.o
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8platform.cpp:7:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8platform.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumscriptscheduler.h:10:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib-object.h:24:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gobject/gbinding.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib.h:32:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/galloca.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gtypes.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/lib/glib-2.0/include/glibconfig.h:9:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gmacros.h:40:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/stddef.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__config:21:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/abi.h:14:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/compiler.h:41:8: warning: "Libc++ only supports AppleClang 26.4 and later" [-W#warnings]
+   41 | #      warning "Libc++ only supports AppleClang 26.4 and later"
+      |        ^
+1 warning generated.
+[163/340] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8kernel.cpp.o
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8kernel.cpp:8:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8kernel.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8core.h:12:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumscriptscheduler.h:10:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib-object.h:24:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gobject/gbinding.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib.h:32:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/galloca.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gtypes.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/lib/glib-2.0/include/glibconfig.h:9:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gmacros.h:40:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/stddef.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__config:21:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/abi.h:14:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/compiler.h:41:8: warning: "Libc++ only supports AppleClang 26.4 and later" [-W#warnings]
+   41 | #      warning "Libc++ only supports AppleClang 26.4 and later"
+      |        ^
+1 warning generated.
+[164/340] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8memory.cpp.o
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8memory.cpp:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8memory.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8core.h:12:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumscriptscheduler.h:10:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib-object.h:24:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gobject/gbinding.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib.h:32:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/galloca.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gtypes.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/lib/glib-2.0/include/glibconfig.h:9:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gmacros.h:40:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/stddef.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__config:21:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/abi.h:14:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/compiler.h:41:8: warning: "Libc++ only supports AppleClang 26.4 and later" [-W#warnings]
+   41 | #      warning "Libc++ only supports AppleClang 26.4 and later"
+      |        ^
+1 warning generated.
+[165/340] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8thread.cpp.o
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8thread.cpp:9:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8thread.h:11:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8core.h:12:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumscriptscheduler.h:10:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib-object.h:24:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gobject/gbinding.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib.h:32:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/galloca.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gtypes.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/lib/glib-2.0/include/glibconfig.h:9:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gmacros.h:40:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/stddef.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__config:21:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/abi.h:14:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/compiler.h:41:8: warning: "Libc++ only supports AppleClang 26.4 and later" [-W#warnings]
+   41 | #      warning "Libc++ only supports AppleClang 26.4 and later"
+      |        ^
+1 warning generated.
+[166/340] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8core.cpp.o
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8core.cpp:14:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8core.h:12:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumscriptscheduler.h:10:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib-object.h:24:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gobject/gbinding.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib.h:32:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/galloca.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gtypes.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/lib/glib-2.0/include/glibconfig.h:9:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gmacros.h:40:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/stddef.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__config:21:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/abi.h:14:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/compiler.h:41:8: warning: "Libc++ only supports AppleClang 26.4 and later" [-W#warnings]
+   41 | #      warning "Libc++ only supports AppleClang 26.4 and later"
+      |        ^
+1 warning generated.
+[167/340] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8process.cpp.o
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8process.cpp:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8process.h:12:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8core.h:12:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumscriptscheduler.h:10:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib-object.h:24:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gobject/gbinding.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib.h:32:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/galloca.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gtypes.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/lib/glib-2.0/include/glibconfig.h:9:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gmacros.h:40:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/stddef.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__config:21:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/abi.h:14:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/compiler.h:41:8: warning: "Libc++ only supports AppleClang 26.4 and later" [-W#warnings]
+   41 | #      warning "Libc++ only supports AppleClang 26.4 and later"
+      |        ^
+1 warning generated.
+[168/340] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8file.cpp.o
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8file.cpp:7:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8file.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8core.h:12:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumscriptscheduler.h:10:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib-object.h:24:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gobject/gbinding.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib.h:32:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/galloca.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gtypes.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/lib/glib-2.0/include/glibconfig.h:9:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gmacros.h:40:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/stddef.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__config:21:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/abi.h:14:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/compiler.h:41:8: warning: "Libc++ only supports AppleClang 26.4 and later" [-W#warnings]
+   41 | #      warning "Libc++ only supports AppleClang 26.4 and later"
+      |        ^
+1 warning generated.
+[169/340] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8module.cpp.o
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8module.cpp:7:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8module.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8core.h:12:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumscriptscheduler.h:10:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib-object.h:24:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gobject/gbinding.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib.h:32:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/galloca.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gtypes.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/lib/glib-2.0/include/glibconfig.h:9:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gmacros.h:40:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/stddef.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__config:21:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/abi.h:14:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/compiler.h:41:8: warning: "Libc++ only supports AppleClang 26.4 and later" [-W#warnings]
+   41 | #      warning "Libc++ only supports AppleClang 26.4 and later"
+      |        ^
+1 warning generated.
+[170/340] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8checksum.cpp.o
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8checksum.cpp:7:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8checksum.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8core.h:12:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumscriptscheduler.h:10:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib-object.h:24:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gobject/gbinding.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib.h:32:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/galloca.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gtypes.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/lib/glib-2.0/include/glibconfig.h:9:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gmacros.h:40:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/stddef.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__config:21:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/abi.h:14:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/compiler.h:41:8: warning: "Libc++ only supports AppleClang 26.4 and later" [-W#warnings]
+   41 | #      warning "Libc++ only supports AppleClang 26.4 and later"
+      |        ^
+1 warning generated.
+[171/340] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8interceptor.cpp.o
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8interceptor.cpp:7:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8interceptor.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8codewriter.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8core.h:12:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumscriptscheduler.h:10:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib-object.h:24:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gobject/gbinding.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib.h:32:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/galloca.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gtypes.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/lib/glib-2.0/include/glibconfig.h:9:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gmacros.h:40:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/stddef.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__config:21:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/abi.h:14:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/compiler.h:41:8: warning: "Libc++ only supports AppleClang 26.4 and later" [-W#warnings]
+   41 | #      warning "Libc++ only supports AppleClang 26.4 and later"
+      |        ^
+1 warning generated.
+[172/340] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8eventsink.cpp.o
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8eventsink.cpp:9:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8eventsink.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8core.h:12:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumscriptscheduler.h:10:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib-object.h:24:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gobject/gbinding.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib.h:32:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/galloca.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gtypes.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/lib/glib-2.0/include/glibconfig.h:9:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gmacros.h:40:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/stddef.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__config:21:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/abi.h:14:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/compiler.h:41:8: warning: "Libc++ only supports AppleClang 26.4 and later" [-W#warnings]
+   41 | #      warning "Libc++ only supports AppleClang 26.4 and later"
+      |        ^
+1 warning generated.
+[173/340] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8stalker.cpp.o
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8stalker.cpp:7:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8stalker.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8codewriter.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8core.h:12:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumscriptscheduler.h:10:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib-object.h:24:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gobject/gbinding.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib.h:32:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/galloca.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gtypes.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/lib/glib-2.0/include/glibconfig.h:9:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gmacros.h:40:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/stddef.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__config:21:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/abi.h:14:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/compiler.h:41:8: warning: "Libc++ only supports AppleClang 26.4 and later" [-W#warnings]
+   41 | #      warning "Libc++ only supports AppleClang 26.4 and later"
+      |        ^
+1 warning generated.
+[174/340] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8apiresolver.cpp.o
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8apiresolver.cpp:7:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8apiresolver.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8object.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8core.h:12:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumscriptscheduler.h:10:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib-object.h:24:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gobject/gbinding.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib.h:32:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/galloca.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gtypes.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/lib/glib-2.0/include/glibconfig.h:9:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gmacros.h:40:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/stddef.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__config:21:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/abi.h:14:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/compiler.h:41:8: warning: "Libc++ only supports AppleClang 26.4 and later" [-W#warnings]
+   41 | #      warning "Libc++ only supports AppleClang 26.4 and later"
+      |        ^
+1 warning generated.
+[175/340] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8symbol.cpp.o
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8symbol.cpp:8:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8symbol.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8core.h:12:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumscriptscheduler.h:10:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib-object.h:24:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gobject/gbinding.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib.h:32:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/galloca.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gtypes.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/lib/glib-2.0/include/glibconfig.h:9:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gmacros.h:40:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/stddef.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__config:21:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/abi.h:14:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/compiler.h:41:8: warning: "Libc++ only supports AppleClang 26.4 and later" [-W#warnings]
+   41 | #      warning "Libc++ only supports AppleClang 26.4 and later"
+      |        ^
+1 warning generated.
+[176/340] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8cmodule.cpp.o
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8cmodule.cpp:7:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8cmodule.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8core.h:12:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumscriptscheduler.h:10:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib-object.h:24:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gobject/gbinding.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib.h:32:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/galloca.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gtypes.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/lib/glib-2.0/include/glibconfig.h:9:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gmacros.h:40:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/stddef.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__config:21:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/abi.h:14:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/compiler.h:41:8: warning: "Libc++ only supports AppleClang 26.4 and later" [-W#warnings]
+   41 | #      warning "Libc++ only supports AppleClang 26.4 and later"
+      |        ^
+1 warning generated.
+[177/340] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8instruction.cpp.o
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8instruction.cpp:8:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8instruction.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8core.h:12:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumscriptscheduler.h:10:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib-object.h:24:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gobject/gbinding.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib.h:32:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/galloca.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gtypes.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/lib/glib-2.0/include/glibconfig.h:9:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gmacros.h:40:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/stddef.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__config:21:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/abi.h:14:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/compiler.h:41:8: warning: "Libc++ only supports AppleClang 26.4 and later" [-W#warnings]
+   41 | #      warning "Libc++ only supports AppleClang 26.4 and later"
+      |        ^
+1 warning generated.
+[178/340] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8controlflowgraph.cpp.o
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8controlflowgraph.cpp:7:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8controlflowgraph.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8instruction.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8core.h:12:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumscriptscheduler.h:10:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib-object.h:24:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gobject/gbinding.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib.h:32:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/galloca.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gtypes.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/lib/glib-2.0/include/glibconfig.h:9:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gmacros.h:40:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/stddef.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__config:21:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/abi.h:14:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/compiler.h:41:8: warning: "Libc++ only supports AppleClang 26.4 and later" [-W#warnings]
+   41 | #      warning "Libc++ only supports AppleClang 26.4 and later"
+      |        ^
+1 warning generated.
+[179/340] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8codewriter.cpp.o
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8codewriter.cpp:7:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8codewriter.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8core.h:12:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumscriptscheduler.h:10:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib-object.h:24:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gobject/gbinding.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib.h:32:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/galloca.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gtypes.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/lib/glib-2.0/include/glibconfig.h:9:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gmacros.h:40:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/stddef.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__config:21:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/abi.h:14:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/compiler.h:41:8: warning: "Libc++ only supports AppleClang 26.4 and later" [-W#warnings]
+   41 | #      warning "Libc++ only supports AppleClang 26.4 and later"
+      |        ^
+1 warning generated.
+[180/340] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8coderelocator.cpp.o
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8coderelocator.cpp:7:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8coderelocator.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8codewriter.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8core.h:12:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumscriptscheduler.h:10:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib-object.h:24:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gobject/gbinding.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib.h:32:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/galloca.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gtypes.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/lib/glib-2.0/include/glibconfig.h:9:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gmacros.h:40:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/stddef.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__config:21:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/abi.h:14:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/compiler.h:41:8: warning: "Libc++ only supports AppleClang 26.4 and later" [-W#warnings]
+   41 | #      warning "Libc++ only supports AppleClang 26.4 and later"
+      |        ^
+1 warning generated.
+[181/340] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8cloak.cpp.o
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8cloak.cpp:7:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8cloak.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8core.h:12:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumscriptscheduler.h:10:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib-object.h:24:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gobject/gbinding.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib.h:32:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/galloca.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gtypes.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/lib/glib-2.0/include/glibconfig.h:9:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gmacros.h:40:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/stddef.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__config:21:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/abi.h:14:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/compiler.h:41:8: warning: "Libc++ only supports AppleClang 26.4 and later" [-W#warnings]
+   41 | #      warning "Libc++ only supports AppleClang 26.4 and later"
+      |        ^
+1 warning generated.
+[182/340] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8profiler.cpp.o
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8profiler.cpp:7:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8profiler.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8interceptor.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8codewriter.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8core.h:12:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumscriptscheduler.h:10:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib-object.h:24:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gobject/gbinding.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib.h:32:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/galloca.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gtypes.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/lib/glib-2.0/include/glibconfig.h:9:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gmacros.h:40:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/stddef.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__config:21:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/abi.h:14:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/compiler.h:41:8: warning: "Libc++ only supports AppleClang 26.4 and later" [-W#warnings]
+   41 | #      warning "Libc++ only supports AppleClang 26.4 and later"
+      |        ^
+1 warning generated.
+[183/340] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8sampler.cpp.o
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8sampler.cpp:7:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8sampler.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8object.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8core.h:12:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumscriptscheduler.h:10:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib-object.h:24:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gobject/gbinding.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib.h:32:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/galloca.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gtypes.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/lib/glib-2.0/include/glibconfig.h:9:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gmacros.h:40:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/stddef.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__config:21:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/abi.h:14:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/compiler.h:41:8: warning: "Libc++ only supports AppleClang 26.4 and later" [-W#warnings]
+   41 | #      warning "Libc++ only supports AppleClang 26.4 and later"
+      |        ^
+1 warning generated.
+[184/340] Compiling C object subprojects/efni/src/libefni-1.0.a.p/meson-generated_error.c.o
+[185/340] Compiling C object subprojects/efni/src/libefni-1.0.a.p/meson-generated_promise.c.o
+[186/340] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8api.cpp.o
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8api.cpp:7:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8api.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8core.h:12:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumscriptscheduler.h:10:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib-object.h:24:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gobject/gbinding.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib.h:32:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/galloca.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gtypes.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/lib/glib-2.0/include/glibconfig.h:9:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gmacros.h:40:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/stddef.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__config:21:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/abi.h:14:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/compiler.h:41:8: warning: "Libc++ only supports AppleClang 26.4 and later" [-W#warnings]
+   41 | #      warning "Libc++ only supports AppleClang 26.4 and later"
+      |        ^
+1 warning generated.
+[187/340] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8stream.cpp.o
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8stream.cpp:7:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8stream.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8object.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8core.h:12:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumscriptscheduler.h:10:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib-object.h:24:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gobject/gbinding.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib.h:32:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/galloca.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gtypes.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/lib/glib-2.0/include/glibconfig.h:9:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gmacros.h:40:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/stddef.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__config:21:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/abi.h:14:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/compiler.h:41:8: warning: "Libc++ only supports AppleClang 26.4 and later" [-W#warnings]
+   41 | #      warning "Libc++ only supports AppleClang 26.4 and later"
+      |        ^
+1 warning generated.
+[188/340] Compiling C object subprojects/efni/src/libefni-1.0.a.p/meson-generated_buffer.c.o
+[189/340] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8socket.cpp.o
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8socket.cpp:7:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8socket.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8object.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8core.h:12:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumscriptscheduler.h:10:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib-object.h:24:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gobject/gbinding.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib.h:32:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/galloca.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gtypes.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/lib/glib-2.0/include/glibconfig.h:9:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gmacros.h:40:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/stddef.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__config:21:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/abi.h:14:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/compiler.h:41:8: warning: "Libc++ only supports AppleClang 26.4 and later" [-W#warnings]
+   41 | #      warning "Libc++ only supports AppleClang 26.4 and later"
+      |        ^
+1 warning generated.
+[190/340] Compiling C object subprojects/efni/src/libefni-1.0.a.p/meson-generated_value.c.o
+[191/340] Compiling C object subprojects/efni/src/libefni-1.0.a.p/meson-generated_stream.c.o
+[192/340] Compiling C++ object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a.p/gumv8database.cpp.o
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8database.cpp:7:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8database.h:10:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumv8core.h:12:
+In file included from ../subprojects/frida-gum/bindings/gumjs/gumscriptscheduler.h:10:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib-object.h:24:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/gobject/gbinding.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib.h:32:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/galloca.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gtypes.h:34:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/lib/glib-2.0/include/glibconfig.h:9:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/glib-2.0/glib/gmacros.h:40:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/stddef.h:30:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__config:21:
+In file included from /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/abi.h:14:
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/sdk-ios-arm64e/include/c++/__configuration/compiler.h:41:8: warning: "Libc++ only supports AppleClang 26.4 and later" [-W#warnings]
+   41 | #      warning "Libc++ only supports AppleClang 26.4 and later"
+      |        ^
+1 warning generated.
+[193/340] Compiling C object subprojects/efni/src/libefni-1.0.a.p/meson-generated_marshal.c.o
+[194/340] Compiling C object subprojects/efni/src/libefni-1.0.a.p/meson-generated_socket.c.o
+[195/340] Compiling C object subprojects/efni/src/libefni-1.0.a.p/meson-generated_fs.c.o
+[196/340] Compiling C object subprojects/efni/src/libefni-1.0.a.p/meson-generated_numeric.c.o
+[197/340] Compiling C object subprojects/efni/src/libefni-1.0.a.p/meson-generated_debugger.c.o
+[198/340] Compiling C object subprojects/efni/src/libefni-1.0.a.p/buffer-glue.c.o
+[199/340] Compiling C object subprojects/efni/src/libefni-1.0.a.p/efni-darwin.c.o
+[200/340] Compiling C object subprojects/efni/src/libefni-1.0.a.p/socket-glue.c.o
+[201/340] Compiling C object subprojects/efni/src/libefni-1.0.a.p/meson-generated_xpc.c.o
+../subprojects/efni/src/xpc.vala:280:12: warning: 'xpc_type_get_name' is only available on iOS 13.0 or newer [-Wunguarded-availability-new]
+  280 |                 _tmp1_ = xpc_type_get_name (expected_type);
+      |                          ^~~~~~~~~~~~~~~~~
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/usr/include/xpc/xpc.h:446:1: note: 'xpc_type_get_name' has been marked as being introduced in iOS 13.0 here, but the deployment target is iOS 8.0.0
+  446 | xpc_type_get_name(xpc_type_t type);
+      | ^
+../subprojects/efni/src/xpc.vala:280:12: note: enclose 'xpc_type_get_name' in a __builtin_available check to silence this warning
+  280 |                 _tmp1_ = xpc_type_get_name (expected_type);
+      |                          ^~~~~~~~~~~~~~~~~                 
+../subprojects/efni/src/xpc.vala:280:12: warning: 'xpc_type_get_name' is only available on iOS 13.0 or newer [-Wunguarded-availability-new]
+  280 |                 _tmp4_ = xpc_type_get_name (_tmp3_);
+      |                          ^~~~~~~~~~~~~~~~~
+/Applications/Xcode_16.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.5.sdk/usr/include/xpc/xpc.h:446:1: note: 'xpc_type_get_name' has been marked as being introduced in iOS 13.0 here, but the deployment target is iOS 8.0.0
+  446 | xpc_type_get_name(xpc_type_t type);
+      | ^
+../subprojects/efni/src/xpc.vala:280:12: note: enclose 'xpc_type_get_name' in a __builtin_available check to silence this warning
+  280 |                 _tmp4_ = xpc_type_get_name (_tmp3_);
+      |                          ^~~~~~~~~~~~~~~~~          
+2 warnings generated.
+[202/340] Compiling C object subprojects/frida-core/lib/base/libfrida-base-1.0.a.p/meson-generated_asset-location.c.o
+[203/340] Compiling C object subprojects/frida-core/lib/base/libfrida-base-1.0.a.p/meson-generated_promise.c.o
+[204/340] Compiling C object subprojects/frida-core/lib/base/libfrida-base-1.0.a.p/meson-generated_channel.c.o
+[205/340] Compiling C object subprojects/frida-core/lib/base/libfrida-base-1.0.a.p/meson-generated_service.c.o
+[206/340] Compiling C object subprojects/frida-core/lib/base/libfrida-base-1.0.a.p/meson-generated_rpc.c.o
+[207/340] Compiling C object subprojects/frida-core/lib/base/libfrida-base-1.0.a.p/meson-generated_dbus.c.o
+[208/340] Compiling C object subprojects/frida-core/lib/base/libfrida-base-1.0.a.p/meson-generated_p2p.c.o
+[209/340] Compiling C object subprojects/frida-core/lib/base/libfrida-base-1.0.a.p/meson-generated_xnu-syscalls_xnu-syscalls.c.o
+[210/340] Compiling C object subprojects/frida-core/lib/base/libfrida-base-1.0.a.p/meson-generated_posix.c.o
+[211/340] Compiling C object subprojects/efni/src/libefni-1.0.a.p/meson-generated_gdb.c.o
+[212/340] Compiling C object subprojects/frida-core/lib/base/libfrida-base-1.0.a.p/meson-generated_corefoundation.c.o
+[213/340] Compiling C object subprojects/frida-core/lib/base/libfrida-base-1.0.a.p/session-glue.c.o
+[214/340] Compiling C object subprojects/frida-core/lib/base/libfrida-base-1.0.a.p/meson-generated_socket.c.o
+[215/340] Compiling C object subprojects/frida-core/lib/base/libfrida-base-1.0.a.p/p2p-glue.c.o
+[216/340] Compiling C object subprojects/frida-core/lib/base/libfrida-base-1.0.a.p/socket-glue.c.o
+[217/340] Compiling C object subprojects/frida-core/lib/base/libfrida-base-1.0.a.p/xnu-syscalls_xnu-syscalls-glue.c.o
+[218/340] Compiling C object subprojects/frida-core/lib/netif/libfrida-netif.a.p/meson-generated_tunnel-interface-observer.c.o
+[219/340] Compiling C object subprojects/frida-core/lib/pipe/libfrida-pipe.a.p/meson-generated_pipe.c.o
+[220/340] Compiling C object subprojects/frida-core/lib/pipe/libfrida-pipe.a.p/pipe-darwin.c.o
+[221/340] Compiling C object subprojects/frida-core/lib/payload/libfrida-payload-1.0.a.p/meson-generated_process.c.o
+[222/340] Compiling C object subprojects/frida-core/lib/payload/libfrida-payload-1.0.a.p/meson-generated_base-agent-session.c.o
+[223/340] Compiling C object subprojects/frida-core/lib/payload/libfrida-payload-1.0.a.p/meson-generated_fork-monitor.c.o
+[224/340] Compiling C object subprojects/frida-core/lib/payload/libfrida-payload-1.0.a.p/meson-generated_portal-client.c.o
+[225/340] Compiling C object subprojects/frida-core/lib/payload/libfrida-payload-1.0.a.p/meson-generated_script-engine.c.o
+[226/340] Compiling C object subprojects/frida-core/lib/payload/libfrida-payload-1.0.a.p/meson-generated_thread-suspend-monitor.c.o
+[227/340] Compiling C object subprojects/frida-core/lib/base/libfrida-base-1.0.a.p/meson-generated_session.c.o
+[228/340] Compiling C object subprojects/frida-core/lib/payload/libfrida-payload-1.0.a.p/meson-generated_spawn-monitor.c.o
+[229/340] Compiling C object subprojects/frida-core/lib/payload/libfrida-payload-1.0.a.p/meson-generated_unwind-sitter.c.o
+[230/340] Compiling C object subprojects/frida-core/lib/payload/libfrida-payload-1.0.a.p/meson-generated_exit-monitor.c.o
+[231/340] Compiling C object subprojects/frida-core/lib/payload/libfrida-payload-1.0.a.p/meson-generated_fd-guard.c.o
+[232/340] Compiling C object subprojects/frida-core/lib/payload/libfrida-payload-1.0.a.p/meson-generated_cloak.c.o
+[233/340] Compiling C object subprojects/frida-core/lib/payload/libfrida-payload-1.0.a.p/process-glue.c.o
+[234/340] Compiling C object subprojects/frida-core/lib/payload/libfrida-payload-1.0.a.p/spawn-monitor-glue.c.o
+[235/340] Compiling C object subprojects/frida-core/lib/payload/libfrida-payload-1.0.a.p/meson-generated_fdt-padder.c.o
+[236/340] Compiling C object subprojects/frida-core/lib/payload/libfrida-payload-1.0.a.p/libc-shim.c.o
+[237/340] Compiling C object subprojects/frida-core/lib/payload/libfrida-payload-1.0.a.p/thread-suspend-monitor-glue.c.o
+[238/340] Compiling C object subprojects/frida-core/lib/payload/libfrida-payload-1.0.a.p/unwind-sitter-glue.c.o
+[239/340] Compiling Vala source ../subprojects/frida-core/lib/agent/agent.vala subprojects/frida-core/lib/base/frida-base-1.0.vapi subprojects/efni/src/efni-1.0.vapi subprojects/frida-core/lib/pipe/frida-pipe.vapi subprojects/frida-core/lib/payload/frida-payload-1.0.vapi
+[240/340] Linking static target subprojects/frida-gum/libs/gum/prof/libfrida-gum-prof-1.0.a
+[241/340] Linking static target subprojects/frida-gum/gum/libfrida-gum-1.0.a
+[242/340] Linking static target subprojects/efni/src/libefni-1.0.a
+[243/340] Linking static target subprojects/frida-core/lib/base/libfrida-base-1.0.a
+[244/340] Linking static target subprojects/frida-core/lib/netif/libfrida-netif.a
+[245/340] Linking static target subprojects/frida-core/lib/pipe/libfrida-pipe.a
+[246/340] Compiling Vala source ../subprojects/frida-core/lib/gadget/gadget.vala subprojects/frida-core/lib/base/frida-base-1.0.vapi subprojects/efni/src/efni-1.0.vapi subprojects/frida-core/lib/netif/frida-netif.vapi subprojects/frida-core/lib/payload/frida-payload-1.0.vapi
+[247/340] Linking static target subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a
+[248/340] Linking static target subprojects/frida-core/lib/payload/libfrida-payload-1.0.a
+[249/340] Compiling C++ object subprojects/frida-core/lib/agent/libfrida-agent-raw.dylib.p/dummy.cpp.o
+[250/340] Compiling C object subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-inspector-1.0.a.p/guminspectorserver.c.o
+[251/340] Compiling C object subprojects/frida-core/lib/agent/libfrida-agent-raw.dylib.p/agent-glue.c.o
+[252/340] Compiling C object subprojects/frida-core/lib/gadget/libfrida-gadget-raw.dylib.p/gadget-glue.c.o
+[253/340] Compiling C++ object subprojects/frida-core/lib/gadget/libfrida-gadget-raw.dylib.p/dummy.cpp.o
+[254/340] Compiling C object subprojects/frida-core/lib/agent/libfrida-agent-raw.dylib.p/meson-generated_agent.c.o
+[255/340] Compiling Objective-C object subprojects/frida-core/lib/gadget/libfrida-gadget-raw.dylib.p/gadget-darwin.m.o
+[256/340] Compiling C object subprojects/frida-core/src/libfrida-helper-backend.a.p/meson-generated_darwin_frida-helper-types.c.o
+[257/340] Compiling C object subprojects/frida-core/src/libfrida-helper-backend.a.p/meson-generated_darwin_policy-softener.c.o
+[258/340] Compiling C object subprojects/frida-core/src/libfrida-helper-backend.a.p/darwin_policy-softener-glue.c.o
+[259/340] Compiling C object subprojects/frida-core/src/libfrida-helper-backend.a.p/darwin_policyd.c.o
+[260/340] Compiling C object subprojects/frida-core/src/libfrida-helper-backend.a.p/darwin_policyd-client.c.o
+[261/340] Compiling Vala source subprojects/frida-core/src/frida-data-darwin.vapi subprojects/frida-core/src/frida-data-icons.vapi ../subprojects/frida-core/src/frida.vala ../subprojects/frida-core/src/linux-kernel-image.vala ../subprojects/frida-core/src/xnu-kernelcache.vala ../subprojects/frida-core/src/package-manager.vala ../subprojects/frida-core/src/control-service.vala ../subprojects/frida-core/src/portal-service.vala ../subprojects/frida-core/src/host-session-service.vala ../subprojects/frida-core/src/agent-container.vala ../subprojects/frida-core/src/adb.vala ../subprojects/frida-core/src/system.vala ../subprojects/frida-core/src/file-monitor.vala ../subprojects/frida-core/src/async-task.vala ../subprojects/frida-core/src/darwin/darwin-host-session.vala ../subprojects/frida-core/src/darwin/fruitjector.vala ../subprojects/frida-core/src/darwin/frida-helper-process.vala ../subprojects/frida-core/src/socket/socket-host-session.vala ../subprojects/frida-core/src/compiler/compiler.vala subprojects/frida-core/src/frida-helper-backend.vapi subprojects/frida-core/lib/base/frida-base-1.0.vapi subprojects/efni/src/efni-1.0.vapi subprojects/frida-core/lib/netif/frida-netif.vapi subprojects/frida-core/lib/pipe/frida-pipe.vapi
+../subprojects/frida-core/src/linux-kernel-image.vala:28:3-28:46: warning: Method `Frida.LinuxKernelSymbols.to_list' never used
+   28 | 		internal Gee.List<LinuxKernelSymbol> to_list () {
+      | 		^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~     
+../subprojects/frida-core/src/linux-kernel-image.vala:148:3-148:26: warning: Field `Frida.LinuxKernelSymbol.symbol_type' never used
+  148 | 		public uint8 symbol_type;
+      | 		^~~~~~~~~~~~~~~~~~~~~~~~ 
+../subprojects/frida-core/src/linux-kernel-image.vala:149:3-149:22: warning: Field `Frida.LinuxKernelSymbol.section' never used
+  149 | 		public uint8 section;
+      | 		^~~~~~~~~~~~~~~~~~~~ 
+../subprojects/frida-core/src/darwin/darwin-host-session.vala:467:7-467:26: warning: unreachable catch clause detected
+  467 | 				} catch (Efni.Error e) {
+      | 				  ^~~~~~~~~~~~~~~~~~~~  
+Compilation succeeded - 4 warning(s)
+[262/340] Compiling C object subprojects/frida-core/src/libfrida-helper-backend.a.p/darwin_substituted-client.c.o
+[263/340] Compiling C object subprojects/frida-core/src/libfrida-helper-backend.a.p/darwin_substituted2-client.c.o
+[264/340] Compiling C object subprojects/frida-core/lib/gadget/libfrida-gadget-raw.dylib.p/meson-generated_gadget.c.o
+[265/340] Compiling C object subprojects/frida-core/src/libfrida-helper-backend.a.p/meson-generated_darwin_frida-helper-backend.c.o
+[266/340] Compiling C object subprojects/frida-core/src/libfrida-core.a.p/meson-generated_.._frida-data-darwin.c.o
+[267/340] Compiling C object subprojects/frida-core/src/libfrida-core.a.p/meson-generated_.._frida-data-darwin-blob.S.o
+[268/340] Compiling Vala source ../subprojects/frida-core/src/darwin/frida-helper-service.vala subprojects/frida-core/src/frida-helper-backend.vapi subprojects/frida-core/lib/base/frida-base-1.0.vapi subprojects/efni/src/efni-1.0.vapi subprojects/frida-core/lib/pipe/frida-pipe.vapi
+[269/340] Compiling C object subprojects/frida-core/src/libfrida-core.a.p/meson-generated_.._frida-data-icons-blob.S.o
+[270/340] Compiling C object subprojects/frida-core/src/libfrida-core.a.p/meson-generated_.._frida-data-icons.c.o
+[271/340] Compiling C object subprojects/frida-core/src/libfrida-core.a.p/meson-generated_xnu-kernelcache.c.o
+[272/340] Compiling Objective-C object subprojects/frida-core/src/libfrida-helper-backend.a.p/darwin_springboard.m.o
+[273/340] Compiling C object subprojects/frida-core/src/libfrida-core.a.p/meson-generated_linux-kernel-image.c.o
+[274/340] Compiling Objective-C object subprojects/frida-core/src/libfrida-helper-backend.a.p/darwin_frida-helper-backend-glue.m.o
+[275/340] Compiling C object subprojects/frida-core/src/libfrida-core.a.p/meson-generated_control-service.c.o
+[276/340] Compiling C object subprojects/frida-core/src/libfrida-core.a.p/meson-generated_portal-service.c.o
+[277/340] Compiling C object subprojects/frida-core/src/libfrida-core.a.p/meson-generated_agent-container.c.o
+[278/340] Compiling C object subprojects/frida-core/src/libfrida-core.a.p/meson-generated_host-session-service.c.o
+[279/340] Compiling C object subprojects/frida-core/src/libfrida-core.a.p/meson-generated_package-manager.c.o
+[280/340] Compiling C object subprojects/frida-core/src/libfrida-core.a.p/meson-generated_system.c.o
+[281/340] Compiling C object subprojects/frida-core/src/libfrida-core.a.p/meson-generated_file-monitor.c.o
+[282/340] Compiling C object subprojects/frida-core/src/libfrida-core.a.p/meson-generated_async-task.c.o
+[283/340] Compiling C object subprojects/frida-core/src/libfrida-core.a.p/meson-generated_darwin_fruitjector.c.o
+[284/340] Compiling C object subprojects/frida-core/src/libfrida-core.a.p/meson-generated_adb.c.o
+[285/340] Compiling C object subprojects/frida-core/src/libfrida-core.a.p/meson-generated_darwin_darwin-host-session.c.o
+[286/340] Compiling C object subprojects/frida-core/src/libfrida-core.a.p/meson-generated_socket_socket-host-session.c.o
+[287/340] Compiling C object subprojects/frida-core/src/libfrida-core.a.p/meson-generated_darwin_frida-helper-process.c.o
+[288/340] Compiling C object subprojects/frida-core/src/libfrida-core.a.p/meson-generated_frida.c.o
+[289/340] Compiling C object subprojects/frida-core/src/libfrida-core.a.p/frida-glue.c.o
+[290/340] Compiling C object subprojects/frida-core/src/libfrida-core.a.p/compiler_backend-glue.c.o
+[291/340] Compiling Objective-C object subprojects/frida-core/src/libfrida-core.a.p/darwin_darwin-host-session-glue.m.o
+[292/340] Linking static target subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-inspector-1.0.a
+[293/340] Compiling Vala source ../subprojects/frida-core/server/server.vala subprojects/frida-core/src/frida-core.vapi subprojects/frida-core/src/frida-helper-backend.vapi subprojects/frida-core/lib/base/frida-base-1.0.vapi subprojects/efni/src/efni-1.0.vapi subprojects/frida-core/lib/netif/frida-netif.vapi subprojects/frida-core/lib/pipe/frida-pipe.vapi
+[294/340] Compiling Objective-C object subprojects/frida-core/src/libfrida-core.a.p/darwin_system-darwin.m.o
+[295/340] Linking static target subprojects/frida-core/src/libfrida-helper-backend.a
+[296/340] Compiling C object subprojects/frida-core/src/libfrida-core.a.p/meson-generated_compiler_compiler.c.o
+[297/340] Compiling Objective-C object subprojects/frida-core/src/libfrida-core.a.p/darwin_icon-helpers.m.o
+[298/340] Linking static target subprojects/frida-core/src/libfrida-core.a
+[299/340] Linking target subprojects/frida-core/lib/agent/libfrida-agent-raw.dylib
+ld: warning: ignoring duplicate libraries: '-lresolv'
+[300/340] Compiling Objective-C object subprojects/frida-core/src/frida-helper-raw.p/darwin_frida-helper-service-glue.m.o
+[301/340] Linking target subprojects/frida-core/lib/gadget/libfrida-gadget-raw.dylib
+ld: warning: ignoring duplicate libraries: '-lresolv'
+[302/340] Compiling C object subprojects/frida-core/server/frida-server-raw.p/server-glue.c.o
+[303/340] Compiling C object subprojects/frida-core/server/frida-server-raw.p/meson-generated_server.c.o
+[304/340] Compiling C object subprojects/frida-core/server/frida-server-raw.p/server-ios-tvos.c.o
+[305/340] Compiling Objective-C object subprojects/frida-core/server/frida-server-raw.p/server-darwin.m.o
+[306/340] Compiling C object subprojects/frida-core/src/frida-helper-raw.p/meson-generated_darwin_frida-helper-service.c.o
+[307/340] Linking target subprojects/frida-core/server/frida-server-raw
+ld: warning: ignoring duplicate libraries: '-lresolv'
+[308/340] Compiling Vala source ../subprojects/frida-core/inject/inject.vala subprojects/frida-core/src/frida-core.vapi subprojects/frida-core/src/frida-helper-backend.vapi subprojects/frida-core/lib/base/frida-base-1.0.vapi subprojects/efni/src/efni-1.0.vapi subprojects/frida-core/lib/netif/frida-netif.vapi subprojects/frida-core/lib/pipe/frida-pipe.vapi
+[309/340] Linking target subprojects/frida-core/src/frida-helper-raw
+ld: warning: ignoring duplicate libraries: '-lresolv'
+[310/340] Compiling C object subprojects/frida-gum/libs/gum/heap/libfrida-gum-heap-1.0.a.p/gumallocationblock.c.o
+[311/340] Compiling C object subprojects/frida-gum/libs/gum/heap/libfrida-gum-heap-1.0.a.p/gumallocationgroup.c.o
+[312/340] Compiling C object subprojects/frida-gum/libs/gum/heap/libfrida-gum-heap-1.0.a.p/gumallocationtracker.c.o
+[313/340] Compiling C object subprojects/frida-core/inject/frida-inject-raw.p/inject-glue.c.o
+[314/340] Compiling C object subprojects/frida-gum/libs/gum/heap/libfrida-gum-heap-1.0.a.p/gumallocatorprobe.c.o
+[315/340] Compiling C object subprojects/frida-gum/libs/gum/heap/libfrida-gum-heap-1.0.a.p/gumboundschecker.c.o
+[316/340] Compiling C object subprojects/frida-gum/libs/gum/heap/libfrida-gum-heap-1.0.a.p/gumcobject.c.o
+[317/340] Compiling C object subprojects/frida-gum/libs/gum/heap/libfrida-gum-heap-1.0.a.p/gumcobjecttracker.c.o
+[318/340] Compiling C object subprojects/frida-gum/libs/gum/heap/libfrida-gum-heap-1.0.a.p/guminstancetracker.c.o
+[319/340] Compiling C object subprojects/frida-gum/libs/gum/heap/libfrida-gum-heap-1.0.a.p/gumpagepool.c.o
+[320/340] Compiling C object subprojects/frida-gum/libs/gum/heap/libfrida-gum-heap-1.0.a.p/gumsanitychecker.c.o
+[321/340] Generating subprojects/frida-core/src/frida-helper with a custom command
+[322/340] Compiling C object subprojects/frida-core/inject/frida-inject-raw.p/meson-generated_inject.c.o
+[323/340] Generating subprojects/frida-core/server/frida-server with a custom command
+[324/340] Linking static target subprojects/frida-gum/libs/gum/heap/libfrida-gum-heap-1.0.a
+[325/340] Linking target subprojects/frida-core/inject/frida-inject-raw
+ld: warning: ignoring duplicate libraries: '-lresolv'
+[326/340] Copying file subprojects/frida-core/src/api/GLib-2.0.gir
+[327/340] Copying file subprojects/frida-core/src/api/GObject-2.0.gir
+[328/340] Copying file subprojects/frida-core/src/api/Gio-2.0.gir
+[329/340] Generating subprojects/frida-core/src/api/frida-core-library with a custom command
+/Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: warning duplicate member name 'meson-generated_promise.c.o' from 'subprojects/efni/src/libefni-1.0.a(meson-generated_promise.c.o)' and 'subprojects/frida-core/lib/base/libfrida-base-1.0.a(meson-generated_promise.c.o)'
+/Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: warning duplicate member name 'meson-generated_socket.c.o' from 'subprojects/efni/src/libefni-1.0.a(meson-generated_socket.c.o)' and 'subprojects/frida-core/lib/base/libfrida-base-1.0.a(meson-generated_socket.c.o)'
+/Applications/Xcode_16.4.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool: warning duplicate member name 'socket-glue.c.o' from 'subprojects/frida-core/lib/base/libfrida-base-1.0.a(socket-glue.c.o)' and 'subprojects/efni/src/libefni-1.0.a(socket-glue.c.o)'
+[330/340] Generating subprojects/frida-core/inject/frida-inject with a custom command
+[331/340] Generating subprojects/frida-core/lib/agent/frida-agent-modulated with a custom command
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/build/../subprojects/frida-core/tools/modulate.py:20: PendingDeprecationWarning: FileType is deprecated. Simply open files after parsing arguments.
+  parser.add_argument("input", metavar="/path/to/input/module", type=argparse.FileType("rb"))
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/build/../subprojects/frida-core/tools/modulate.py:481: ResourceWarning: unclosed file <_io.BufferedReader name='subprojects/frida-core/lib/agent/libfrida-agent-raw.dylib'>
+  main()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+[332/340] Generating subprojects/frida-core/lib/gadget/frida-gadget-modulated with a custom command
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/build/../subprojects/frida-core/tools/modulate.py:20: PendingDeprecationWarning: FileType is deprecated. Simply open files after parsing arguments.
+  parser.add_argument("input", metavar="/path/to/input/module", type=argparse.FileType("rb"))
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/build/../subprojects/frida-core/tools/modulate.py:481: ResourceWarning: unclosed file <_io.BufferedReader name='subprojects/frida-core/lib/gadget/libfrida-gadget-raw.dylib'>
+  main()
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+[333/340] Generating subprojects/frida-core/lib/agent/frida-agent with a custom command
+[334/340] Generating subprojects/frida-core/lib/gadget/frida-gadget with a custom command
+[335/340] Generating subprojects/frida-core/src/api/frida-core-api with a custom command
+[336/340] Generating subprojects/frida-core/compat/arch-support with a custom command
+[337/340] Generating subprojects/frida-core/src/frida-helper-universal with a custom command
+[338/340] Generating subprojects/frida-core/server/frida-server-universal with a custom command
+[339/340] Generating subprojects/frida-core/lib/agent/frida-agent-universal with a custom command
+[340/340] Generating subprojects/frida-core/lib/gadget/frida-gadget-universal with a custom command
+INFO: autodetecting backend as ninja
+INFO: calculating backend command to run: /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/deps/toolchain-macos-x86_64/bin/ninja
+ninja: Entering directory `/Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/build'
+ninja: Jobserver mode detected:  -j5 --jobserver-auth=fifo:/var/folders/20/jp1_0n3n7kndh6rnbqb5344m0000gn/T//GMfifo18329
+ninja: no work to do.
+Installing subprojects/frida-gum/gum/gumenumtypes.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing subprojects/frida-gum/gum/libfrida-gum-1.0.a to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/lib
+Installing subprojects/frida-gum/libs/gum/heap/libfrida-gum-heap-1.0.a to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/lib
+Installing subprojects/frida-gum/libs/gum/prof/libfrida-gum-prof-1.0.a to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/lib
+Installing subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-1.0.a to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/lib
+Installing subprojects/frida-gum/bindings/gumjs/libfrida-gumjs-inspector-1.0.a to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/lib
+Installing subprojects/efni/src/libefni-1.0.a to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/lib
+Installing subprojects/efni/src/efni.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/efni-1.0
+Installing subprojects/efni/src/efni-1.0.vapi to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/share/vala/vapi
+Installing subprojects/efni/src/Efni-1.0.gir to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/share/gir-1.0
+Installing subprojects/frida-core/lib/base/libfrida-base-1.0.a to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/lib
+Installing subprojects/frida-core/lib/base/frida-base.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0
+Installing subprojects/frida-core/lib/base/frida-base-1.0.vapi to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/share/vala/vapi
+Installing subprojects/frida-core/lib/payload/libfrida-payload-1.0.a to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/lib
+Installing subprojects/frida-core/lib/payload/frida-payload.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0
+Installing subprojects/frida-core/lib/payload/frida-payload-1.0.vapi to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/share/vala/vapi
+Installing subprojects/frida-core/lib/agent/frida-agent.dylib to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/lib/frida-1.0
+Installing subprojects/frida-core/lib/gadget/frida-gadget.dylib to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/lib/frida-1.0
+Installing subprojects/frida-core/src/frida-helper to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/lib/frida-1.0
+Installing subprojects/frida-core/src/api/frida-core.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0
+Installing subprojects/frida-core/src/api/Frida-1.0.gir to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/share/gir-1.0
+Installing subprojects/frida-core/src/api/frida-core-1.0.vapi to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/share/vala/vapi
+Installing subprojects/frida-core/src/api/frida-core-1.0.deps to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/share/vala/vapi
+Installing subprojects/frida-core/src/api/GLib-2.0.gir to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/share/gir-1.0
+Installing subprojects/frida-core/src/api/GObject-2.0.gir to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/share/gir-1.0
+Installing subprojects/frida-core/src/api/Gio-2.0.gir to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/share/gir-1.0
+Installing subprojects/frida-core/src/api/libfrida-core-1.0.a to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/lib
+Installing subprojects/frida-core/server/frida-server-arm64e to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/bin
+Installing subprojects/frida-core/server/frida-server to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/bin
+Installing subprojects/frida-core/inject/frida-inject to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/bin
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gum.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumapiresolver.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumbacktracer.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumcontrolflowgraph.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumcloak.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumcodeallocator.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumcodesegment.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumdarwingrafter.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumdefs.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumelfmodule.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumelfmoduleresolver.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumevent.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumeventsink.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumexceptor.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumunwindbroker.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumfunction.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumheapapi.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/guminterceptor.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/guminvocationcontext.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/guminvocationlistener.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumkernel.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumlibc.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gummachomodule.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gummapper.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gummemory.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gummemoryaccessmonitor.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gummemorymap.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gummetalarray.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gummetalhash.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gummodule.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gummoduleapiresolver.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gummodulemap.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gummoduleregistry.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gummoduleresolver.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumnativemoduleresolver.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumnativeprocessmemory.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumpemodule.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumprintf.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumprocess.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumprocessmemory.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumreturnaddress.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumspinlock.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumstalker.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumswiftapiresolver.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumsymbolutil.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumsysinternals.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumthreadregistry.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumtls.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/gumcmodule.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/backend-darwin/include/gum/gumdarwin.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/backend-darwin/include/gum/gumdarwinbacktracer.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/backend-darwin/include/gum/gumdarwinsymbolicator.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/backend-darwin/include/gum/gumdarwinmoduleresolver.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/arch-x86/gumx86writer.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/arch-x86
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/arch-x86/gumx86relocator.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/arch-x86
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/arch-x86/gumx86reader.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/arch-x86
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/arch-arm/gumarmwriter.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/arch-arm
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/arch-arm/gumarmrelocator.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/arch-arm
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/arch-arm/gumthumbwriter.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/arch-arm
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/arch-arm/gumthumbrelocator.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/arch-arm
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/arch-arm/gumarmreg.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/arch-arm
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/arch-arm64/gumarm64writer.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/arch-arm64
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/arch-arm64/gumarm64relocator.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/arch-arm64
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/arch-arm64/gumarm64backtracer.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/arch-arm64
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/arch-arm64/gumarm64reader.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/arch-arm64
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/arch-mips/gummipswriter.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/arch-mips
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/gum/arch-mips/gummipsrelocator.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/arch-mips
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/libs/gum/gum-heap.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/libs/gum/gum-prof.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/libs/gum/heap/gumallocationblock.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/heap
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/libs/gum/heap/gumallocationgroup.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/heap
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/libs/gum/heap/gumallocationtracker.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/heap
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/libs/gum/heap/gumallocatorprobe.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/heap
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/libs/gum/heap/gumboundschecker.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/heap
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/libs/gum/heap/gumcobject.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/heap
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/libs/gum/heap/gumcobjecttracker.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/heap
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/libs/gum/heap/guminstancetracker.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/heap
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/libs/gum/heap/gumpagepool.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/heap
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/libs/gum/heap/gumsanitychecker.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/heap
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/libs/gum/prof/gumbusycyclesampler.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/prof
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/libs/gum/prof/gumcallcountsampler.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/prof
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/libs/gum/prof/gumcyclesampler.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/prof
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/libs/gum/prof/gummalloccountsampler.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/prof
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/libs/gum/prof/gumprofiler.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/prof
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/libs/gum/prof/gumprofilereport.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/prof
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/libs/gum/prof/gumsampler.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/prof
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/libs/gum/prof/gumusertimesampler.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/prof
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/libs/gum/prof/gumwallclocksampler.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gum/prof
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/bindings/gumjs/gumjs.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gumjs
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/bindings/gumjs/gumscript.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gumjs
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/bindings/gumjs/gumscriptbackend.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gumjs
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/bindings/gumjs/gumscriptapi.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gumjs
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/bindings/gumjs/gumscriptscheduler.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gumjs
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/bindings/gumjs/guminspectorserver.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/frida-1.0/gumjs
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/efni/src/efni-darwin.h to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/include/efni-1.0
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/build/meson-private/frida-gum-1.0.pc to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/lib/pkgconfig
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/build/meson-private/frida-gum-heap-1.0.pc to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/lib/pkgconfig
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/build/meson-private/frida-gum-prof-1.0.pc to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/lib/pkgconfig
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/build/meson-private/frida-gumjs-1.0.pc to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/lib/pkgconfig
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/build/meson-private/frida-gumjs-inspector-1.0.pc to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/lib/pkgconfig
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/vapi/frida-gum-1.0.vapi to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/share/vala/vapi
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/vapi/frida-gum-heap-1.0.vapi to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/share/vala/vapi
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/vapi/frida-gum-darwin-1.0.vapi to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/share/vala/vapi
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/vapi/frida-gumjs-1.0.vapi to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/share/vala/vapi
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/frida-gum/vapi/frida-gumjs-inspector-1.0.vapi to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/share/vala/vapi
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/efni/vapi/efni-darwin-gcd.vapi to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/share/vala/vapi
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/subprojects/efni/vapi/efni-darwin-xpc.vapi to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/share/vala/vapi
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/build/subprojects/efni/src/efni-1.0.deps to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/share/vala/vapi
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/build/meson-private/efni-1.0.pc to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/lib/pkgconfig
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/build/meson-private/frida-base-1.0.pc to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/lib/pkgconfig
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/build/meson-private/frida-payload-1.0.pc to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/lib/pkgconfig
+Installing /Users/runner/work/frida-ios-stealth/frida-ios-stealth/frida/build/meson-private/frida-core-1.0.pc to /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/lib/pkgconfig
+[0;32m[build][0m server: /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/bin/frida-server
+[0;32m[build][0m agent:  /Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/lib/frida-1.0/frida-agent.dylib
+[0;32m[build][0m server slices: arm64 arm64e
+[0;32m[build][0m agent  slices: arm64 arm64e
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/bin/frida-server: replacing existing signature
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/bin/frida-server: signed Mach-O universal (arm64e arm64) [frida-server-5555494489d1faa4e413312ca661423cee22ef15]
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/lib/frida-1.0/frida-agent.dylib: replacing existing signature
+/Users/runner/work/frida-ios-stealth/frida-ios-stealth/dist/var/jb/usr/lib/frida-1.0/frida-agent.dylib: signed Mach-O universal (arm64e arm64) [frida-agent-55554944b4e3f0706c14326ab7a4e566d72eb88e]
+[0;32m[build][0m codesign done
+dpkg-deb: building package 're.frida.server' in '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/out/frida_17.26.3_iphoneos-arm64e.deb'.
+dpkg-deb: building package 're.frida.server' in '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/out/frida_17.26.3_iphoneos-arm64e.deb'.
+dpkg-deb: building package 're.frida.server' in '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/out/frida_17.26.3_iphoneos-arm64e-roothide.deb'.
+dpkg-deb: building package 're.frida.server' in '/Users/runner/work/frida-ios-stealth/frida-ios-stealth/out/frida_17.26.3_iphoneos-arm64e-roothide.deb'.
+[0;32m[build][0m packaged (rootless /var/jb): /Users/runner/work/frida-ios-stealth/frida-ios-stealth/out/frida_17.26.3_iphoneos-arm64e.deb
+[0;32m[build][0m packaged (roothide):         /Users/runner/work/frida-ios-stealth/frida-ios-stealth/out/frida_17.26.3_iphoneos-arm64e-roothide.deb
+total 94232
+drwxr-xr-x   5 runner  staff       160 Nov 14 10:44 .
+drwxr-xr-x  16 runner  staff       512 Nov 14 10:43 ..
+-rw-r--r--   1 runner  staff  23590888 Nov 14 10:44 frida_17.26.3_iphoneos-arm64e-roothide.deb
+-rw-r--r--   1 runner  staff  23590676 Nov 14 10:43 frida_17.26.3_iphoneos-arm64e.deb
+-rw-r--r--   1 runner  staff         8 Nov 14 10:44 FRIDA_VERSION.txt
+=== rootless deb ===
+ new Debian package, version 2.0.
+ size 23590676 bytes: control archive=624 bytes.
+     377 bytes,    13 lines      control
+     244 bytes,    11 lines   *  extrainst_           #!/bin/sh
+     140 bytes,     7 lines   *  prerm                #!/bin/sh
+ Package: re.frida.server
+ Name: Frida
+ Version: 17.26.3
+ Priority: optional
+ Size: 24121344
+ Installed-Size: 78508
+ Architecture: iphoneos-arm64e
+ Description: Observe and reprogram running programs.
+ Homepage: https://frida.re/
+ Maintainer: Ole Andre Vadla Ravnas <oleavr@nowsecure.com>
+ Author: Frida Developers <oleavr@nowsecure.com>
+ Section: Development
+ Conflicts: re.frida.server64
+drwx------ root/root         0 2026-11-14 10:43 ./
+drwxr-xr-x root/root         0 2026-11-14 10:43 ./var/
+drwxr-xr-x root/root         0 2026-11-14 10:43 ./var/jb/
+drwxr-xr-x root/root         0 2026-11-14 10:43 ./var/jb/Library/
+drwxr-xr-x root/root         0 2026-11-14 10:43 ./var/jb/Library/LaunchDaemons/
+-rw-r--r-- root/root       655 2026-11-14 10:43 ./var/jb/Library/LaunchDaemons/re.frida.server.plist
+drwxr-xr-x root/root         0 2026-11-14 10:43 ./var/jb/usr/
+drwxr-xr-x root/root         0 2026-11-14 10:43 ./var/jb/usr/lib/
+drwxr-xr-x root/root         0 2026-11-14 10:43 ./var/jb/usr/lib/frida-1.0/
+-rwxr-xr-x root/root  61923744 2026-11-14 10:43 ./var/jb/usr/lib/frida-1.0/frida-agent.dylib
+drwxr-xr-x root/root         0 2026-11-14 10:43 ./var/jb/usr/sbin/
+-rwxr-xr-x root/root  18458064 2026-11-14 10:43 ./var/jb/usr/sbin/frida-server
+=== roothide deb ===
+ new Debian package, version 2.0.
+ size 23590888 bytes: control archive=684 bytes.
+     388 bytes,    13 lines      control
+     388 bytes,     8 lines   *  extrainst_           #!/bin/sh
+     290 bytes,     7 lines   *  prerm                #!/bin/sh
+ Package: re.frida.server
+ Name: Frida
+ Version: 17.26.3
+ Priority: optional
+ Size: 24121344
+ Installed-Size: 78508
+ Architecture: iphoneos-arm64e
+ Description: Observe and reprogram running programs. (roothide build)
+ Homepage: https://frida.re/
+ Maintainer: Frida Developers <oleavr@nowsecure.com>
+ Author: Frida Developers <oleavr@nowsecure.com>
+ Section: Development
+ Conflicts: re.frida.server64
+drwx------ root/root         0 2026-11-14 10:43 ./
+drwxr-xr-x root/root         0 2026-11-14 10:43 ./Library/
+drwxr-xr-x root/root         0 2026-11-14 10:43 ./Library/LaunchDaemons/
+-rw-r--r-- root/root       641 2026-11-14 10:43 ./Library/LaunchDaemons/re.frida.server.plist
+drwxr-xr-x root/root         0 2026-11-14 10:43 ./usr/
+drwxr-xr-x root/root         0 2026-11-14 10:43 ./usr/lib/
+drwxr-xr-x root/root         0 2026-11-14 10:43 ./usr/lib/frida-1.0/
+-rwxr-xr-x root/root  61923744 2026-11-14 10:43 ./usr/lib/frida-1.0/frida-agent.dylib
+drwxr-xr-x root/root         0 2026-11-14 10:43 ./usr/sbin/
+-rwxr-xr-x root/root  18458064 2026-11-14 10:43 ./usr/sbin/frida-server
